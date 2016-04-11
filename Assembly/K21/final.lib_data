@@ -1,0 +1,38 @@
+- average coverage: 55.79
+  average read length: 202.913
+  insert size deviation: 0
+  insert size distribution:
+    {}
+  insert size left quantile: 0
+  insert size mad: 0
+  insert size mean: 0
+  insert size median: 0
+  insert size right quantile: 0
+  left reads:
+    - /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/2998-174_1.fastq.00.0_0.cor.fastq.gz
+  orientation: fr
+  pi threshold: 0
+  read length: 251
+  right reads:
+    - /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/2998-174_2.fastq.00.0_0.cor.fastq.gz
+  single reads:
+    - /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/2998-174__unpaired.00.0_0.cor.fastq.gz
+  single reads mapped: false
+  type: paired-end
+- average coverage: 55.79
+  average read length: 202.913
+  insert size deviation: 0
+  insert size distribution:
+    {}
+  insert size left quantile: 0
+  insert size mad: 0
+  insert size mean: 0
+  insert size median: 0
+  insert size right quantile: 0
+  orientation: undefined
+  pi threshold: 0
+  read length: 23445
+  single reads:
+    - /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Raw_Reads/minION/Reads_Combined.fasta
+  single reads mapped: false
+  type: nanopore

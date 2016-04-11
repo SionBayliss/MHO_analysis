@@ -1,0 +1,4 @@
+
+=== Pipeline warnings:
+ * Default k-mer sizes were set to [21, 33, 55, 77, 99, 127] because estimated read length (251) is equal to or greater than 250
+======= Warnings saved to /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/warnings.log

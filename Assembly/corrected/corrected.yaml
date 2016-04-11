@@ -1,0 +1,7 @@
+- left reads: [/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/2998-174_1.fastq.00.0_0.cor.fastq.gz]
+  orientation: fr
+  right reads: [/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/2998-174_2.fastq.00.0_0.cor.fastq.gz]
+  single reads: [/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/2998-174__unpaired.00.0_0.cor.fastq.gz]
+  type: paired-end
+- single reads: [/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Raw_Reads/minION/Reads_Combined.fasta]
+  type: nanopore

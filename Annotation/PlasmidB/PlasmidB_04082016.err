@@ -1,0 +1,69 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:4 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:gene: 4 present
+DISC_FEATURE_COUNT:CDS: 4 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+TEST_DEFLINE_PRESENT:1 Bioseqs have definition line
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:5 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::4 proteins have invalid IDs.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_1 (length 331)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_2 (length 57)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_3 (length 193)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_4 (length 73)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::gene: 4 present
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 4 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+
+DiscRep_ALL:TEST_DEFLINE_PRESENT::1 Bioseqs have definition line
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+
+DiscRep_ALL:MISSING_PROJECT::5 sequences do not include project.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_1 (length 331)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_2 (length 57)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_3 (length 193)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB_4 (length 73)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidB//PlasmidB_04082016:PlasmidB (length 3124)
+

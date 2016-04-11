@@ -1,0 +1,148 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:33 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:gene: 33 present
+DISC_FEATURE_COUNT:CDS: 33 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+OVERLAPPING_GENES:6 genes overlap another gene on the same strand.
+SUSPECT_PRODUCT_NAMES:1 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features Three or more numbers together but not contains 'methyltransferas'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:1 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+TEST_DEFLINE_PRESENT:1 Bioseqs have definition line
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:34 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::33 proteins have invalid IDs.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_1 (length 100)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_2 (length 172)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_3 (length 264)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_4 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_5 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_6 (length 40)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_7 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_8 (length 192)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_9 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_10 (length 599)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_11 (length 281)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_12 (length 139)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_13 (length 323)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_14 (length 115)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_15 (length 205)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_16 (length 64)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_17 (length 230)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_18 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_19 (length 56)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_20 (length 327)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_21 (length 247)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_22 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_23 (length 112)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_24 (length 202)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_25 (length 299)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_26 (length 488)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_27 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_28 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_29 (length 60)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_30 (length 200)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_31 (length 309)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_32 (length 245)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_33 (length 67)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::gene: 33 present
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 33 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+
+DiscRep_ALL:OVERLAPPING_GENES::6 genes overlap another gene on the same strand.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:Gene	blaI	lcl|PlasmidA:c6236-5856	PlasmidA_00009
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:Gene	blaR1	lcl|PlasmidA:c8025-6226	PlasmidA_00010
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:Gene	graR	lcl|PlasmidA:23593-23958	PlasmidA_00028
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:Gene	PlasmidA_00029	lcl|PlasmidA:23955-24137	PlasmidA_00029
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:Gene	yxlF	lcl|PlasmidA:24952-25881	PlasmidA_00031
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:Gene	PlasmidA_00032	lcl|PlasmidA:25874-26611	PlasmidA_00032
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::1 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features Three or more numbers together but not contains 'methyltransferas'
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:CDS	Putative transposon Tn552 DNA-invertase bin3	lcl|PlasmidA:c19425-18817	PlasmidA_00024
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::1 protein sequences are shorter than 50 aa.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_6 (length 40)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+
+DiscRep_ALL:TEST_DEFLINE_PRESENT::1 Bioseqs have definition line
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+
+DiscRep_ALL:MISSING_PROJECT::34 sequences do not include project.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_1 (length 100)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_2 (length 172)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_3 (length 264)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_4 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_5 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_6 (length 40)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_7 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_8 (length 192)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_9 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_10 (length 599)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_11 (length 281)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_12 (length 139)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_13 (length 323)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_14 (length 115)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_15 (length 205)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_16 (length 64)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_17 (length 230)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_18 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_19 (length 56)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_20 (length 327)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_21 (length 247)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_22 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_23 (length 112)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_24 (length 202)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_25 (length 299)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_26 (length 488)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_27 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_28 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_29 (length 60)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_30 (length 200)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_31 (length 309)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_32 (length 245)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA_33 (length 67)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/Github//Annotation/PlasmidA//PlasmidA_04082016:PlasmidA (length 27067)
+

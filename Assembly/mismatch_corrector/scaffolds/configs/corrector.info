@@ -1,0 +1,3 @@
+{bwa: /home/sb2145/.linuxbrew/Cellar/spades/3.6.2/bin/bwa-spades, dataset: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/input_dataset.yaml,
+  max_nthreads: 3, output_dir: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/mismatch_corrector/scaffolds,
+  strategy: mapped_squared, work_dir: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/mismatch_corrector/scaffolds/tmp}

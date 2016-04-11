@@ -1,0 +1,40 @@
+Command line: /home/sb2145/.linuxbrew/bin/spades.py --pe1-1 /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Processed_Reads/2998-174_1.fastq.gz --pe1-2 /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Processed_Reads/2998-174_2.fastq.gz --nanopore /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Raw_Reads/minION/Reads_Combined.fasta --cov-cutoff 5 --careful -t 3 -o /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly 
+
+System information:
+  SPAdes version: 3.6.2
+  Python version: 2.7.11
+  OS: Linux-3.19.0-49-generic-x86_64-with-debian-jessie-sid
+
+Output dir: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Processed_Reads/2998-174_1.fastq.gz']
+      right reads: ['/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Processed_Reads/2998-174_2.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+    Library number: 2, library type: nanopore
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Raw_Reads/minION/Reads_Combined.fasta']
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed (with gzip)
+Assembly parameters:
+  k: automatic selection based on read length
+  Mismatch careful mode is turned ON
+  Repeat resolution is enabled
+  MismatchCorrector will be used
+  Coverage cutoff is turned ON and threshold is 5.0
+Other parameters:
+  Dir for temp files: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/tmp
+  Threads: 3
+  Memory limit (in Gb): 62
+
