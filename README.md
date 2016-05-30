@@ -86,7 +86,7 @@ Results
 Input Read Pairs: 713279 Both Surviving: 439480 (61.61%) Forward Only Surviving: 272446 (38.20%) Reverse Only Surviving: 691 (0.10%) Dropped: 662 (0.09%)
 ```
 
-Set path to trimmed Illumina reads
+Set path to trimmed Illumina reads.
 ```
 illumina_1="$DIR/Reads/Illumina/Trimmed/illumina_1.paired.fastq.gz"
 illumina_2="$DIR/Reads/Illumina/Trimmed/illumina_2.paired.fastq.gz"
@@ -124,7 +124,7 @@ Sequences in:  21098
 Sequences out: 13216
 ```
 
-Rename file of demultiplexed sample
+Rename file of demultiplexed sample.
 ``` 
 cd $DIR/Reads/minION/
 mkdir Trimmed
@@ -168,7 +168,7 @@ Concatenate filtered pass and fail reads. This will be our working file for the 
 cat reads_fail_str14.fasta.barcodes_removed reads_pass.fasta.barcodes_removed > Reads_Combined_Str14.fasta # for Assembly
 ```
 
-Set path to MinION reads
+Set path to MinION reads.
 ```
 nanopore_reads=$DIR/Reads/minION/Trimmed/Reads_Combined_Str14.fasta
 ```
