@@ -401,7 +401,7 @@ Note: Plasmid A has a region with very high coverage corresponding with an inser
 
 ### Optional: Polish assembly with short reads 
 
-Note : This seems to produce as many errors as it corrects - if fails to correct the regions inbetween ribosomal genes and introduces SNPs relative to the reference genome. 
+Note : This seems to produce as many errors as it corrects - if fails to correct the regions between ribosomal genes and introduces SNPs relative to the reference genome. 
 
 ```
 mkdir $DIR/Polished_Contigs
