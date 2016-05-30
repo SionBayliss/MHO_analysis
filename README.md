@@ -397,7 +397,7 @@ tablet $DIR/Mapping/PlasmidAVsNanopore.bwa.bam $DIR/Mapping/PlasmidA.fasta
 tablet $DIR/Mapping/PlasmidBVsNanopore.bwa.bam $DIR/Mapping/PlasmidB.fasta
 ```
 
-Note: Plasmid A has a reagion with very high coverage corresponding with an insertion sequence (of presumably high copy number in the genome). 
+Note: Plasmid A has a region with very high coverage corresponding with an insertion sequence (of presumably high copy number in the genome). 
 
 ### Optional: Polish assembly with short reads 
 
