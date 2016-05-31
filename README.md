@@ -3,23 +3,23 @@
 ### Dependencies
 
 #### Analysis 
-Samtools (>=1.18)
-Trimmomatic 
-SPAdes
-BWA (0.7.5a-r405)
-BioPerl
-Mauve
+*Samtools (>=1.18)
+*Trimmomatic 
+*SPAdes
+*BWA (0.7.5a-r405)
+*BioPerl
+*Mauve
 
 #### Plot Creation
-R
-ggplot
-cowplot
-genoPlotR
+*R
+*ggplot
+*cowplot
+*genoPlotR
 
 #### Optional 
-prokka
-pilon
-tablet/artemis
+*prokka
+*pilon
+*tablet/artemis
 
 # Workflow
  For publication - TBA
