@@ -108,7 +108,10 @@ $cut_point=$loc1->start; # position to cut contig 1 - Removes unaligned and alig
 print "Trim beginning of contig to position $cut_point\n";
  
 # Trim bases from beginning of contig. 
-$contig_trimmed=substr($c_seq, $cut_point, $c_length);
+$contig_trimmed=substr($c_seq, $cut_point, $c_length-$cut_point);
+
+# Trim bases from end of contig. (Produced alternative alignment if clustal shows non-identical alignment)
+#$contig_trimmed=substr($c_seq, 0, $c_length-$cut_point);
 
 # Save trimmed contig to use as  blast database. 
 open TRIMMED, ">$dirname/$name.trimmed" or die "Could not write to $dirname/$name.trimmed";
@@ -138,19 +141,15 @@ while( my $hit = $result->next_hit ) {
 		$start= $hsp->start('hit');
 		
 		#$end= $hsp->end('hit');
-		print "Blast % id = $perc_id\tHit Pos = $start\tHit Length = $length\n";
+		print "Blast % id = $perc_id\tHit Pos = $start\tHit Length = $length\tStrand=$strand\n";
 		last;
 	}  
 } 
-
-# Find position of origin.
-if($strand==1){ $break = $start-1 }
-else{     $break = $start }
-print "Break Point = $break bp\n";
+print "Break Point = ",$start-1," bp\n";
 
 # Break $CONTIG at origin. 
-$c1=substr($contig_trimmed,0,$break);
-$c2=substr($contig_trimmed,$break+1,$c_length-1);
+$c1=substr($contig_trimmed,0,$start-1);
+$c2=substr($contig_trimmed,$start-1,length($contig_trimmed)-$start+1);
 
 # Length of contig fragments. 
 $c1_l=length($c1);

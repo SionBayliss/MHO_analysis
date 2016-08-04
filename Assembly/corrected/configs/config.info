@@ -1,16 +1,16 @@
 ; = HAMMER =
 ; input options: working dir, input files, offset, and possibly kmers
-dataset /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected/to_correct.yaml
-input_working_dir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/tmp/hammer_pA4VGr
+dataset /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/corrected/to_correct.yaml
+input_working_dir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/tmp/hammer_Zka1rg
 input_trim_quality			4
 input_qvoffset				
-output_dir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/corrected
+output_dir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/corrected
 
 ; == HAMMER GENERAL ==
 ; general options
 general_do_everything_after_first_iteration	1
 general_hard_memory_limit 62
-general_max_nthreads 3
+general_max_nthreads 6
 general_tau			1
 general_max_iterations 1
 general_debug			0
@@ -18,7 +18,7 @@ general_debug			0
 ; count k-mers
 count_do				1
 count_numfiles				16
-count_merge_nthreads 3
+count_merge_nthreads 6
 count_split_buffer			0
 
 ; hamming graph clustering
@@ -27,7 +27,7 @@ hamming_blocksize_quadratic_threshold	50
 
 ; bayesian subclustering
 bayes_do				1
-bayes_nthreads 3
+bayes_nthreads 6
 bayes_singleton_threshold		0.995
 bayes_nonsingleton_threshold		0.9
 bayes_use_hamming_dist			0
@@ -36,12 +36,11 @@ bayes_debug_output			0
 bayes_hammer_mode			0
 bayes_write_solid_kmers			0
 bayes_write_bad_kmers			0
-bayes_initial_refine                    0
 
 ; iterative expansion step
 expand_do				1
 expand_max_iterations			25
-expand_nthreads 3
+expand_nthreads 6
 expand_write_each_iteration		0
 expand_write_kmers_result		0
 
@@ -50,5 +49,5 @@ correct_do				1
 correct_discard_bad			0
 correct_use_threshold			1
 correct_threshold			0.98
-correct_nthreads 3
+correct_nthreads 6
 correct_readbuffer			100000

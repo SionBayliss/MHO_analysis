@@ -11,20 +11,20 @@ K 55
 
 run_mode false
 project_name    TOY_DATASET
-dataset /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/dataset.info
+dataset /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/dataset.info
 log_filename    log.properties
 
-output_base /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly
-tmp_dir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/tmp/spades_6CHjO6
+output_base /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly
+tmp_dir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/tmp/spades_BG0_fe
 
 main_iteration false
-additional_contigs /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/K33/simplified_contigs.fasta
-load_from /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperAnalysis/CompleteFinal/Assembly/K55/saves
+additional_contigs /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/K33/simplified_contigs.fasta
+load_from /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis/Assembly/K55/saves
 
 
 ; Multithreading options
 temp_bin_reads_dir	.bin_reads/
-max_threads 3
+max_threads 6
 max_memory 62
 buffer_size	      	512; in Megabytes
 

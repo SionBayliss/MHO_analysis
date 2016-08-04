@@ -1,5 +1,0 @@
-organism: Staphylococcus aureus strain USA300B
-contigs: 1
-bases: 3124
-gene: 4
-CDS: 4
