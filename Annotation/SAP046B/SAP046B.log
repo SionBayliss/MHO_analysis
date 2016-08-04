@@ -1,0 +1,114 @@
+[12:03:20] Command: --outdir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/ --force --prefix SAP046B --locustag SAP046B --genus Staphylococcus --species aureus --kingdom Bacteria --addgenes --usegenus --cpus 6 /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B.fasta
+[12:03:20] Looking for 'aragorn' - found /home/sb2145/.linuxbrew/bin/aragorn
+[12:03:20] Determined aragorn version is 1.2
+[12:03:20] Looking for 'barrnap' - found /home/sb2145/.linuxbrew/bin/barrnap
+[12:03:20] Determined barrnap version is 0.7
+[12:03:20] Looking for 'blastp' - found /home/sb2145/.linuxbrew/bin/blastp
+[12:03:20] Determined blastp version is 2.4
+[12:03:20] Looking for 'cmpress' - found /home/sb2145/.linuxbrew/bin/cmpress
+[12:03:20] Determined cmpress version is 1.1
+[12:03:20] Looking for 'cmscan' - found /home/sb2145/.linuxbrew/bin/cmscan
+[12:03:20] Determined cmscan version is 1.1
+[12:03:20] Looking for 'egrep' - found /bin/egrep
+[12:03:20] Looking for 'find' - found /usr/bin/find
+[12:03:20] Looking for 'grep' - found /bin/grep
+[12:03:20] Looking for 'hmmpress' - found /home/sb2145/.linuxbrew/bin/hmmpress
+[12:03:20] Determined hmmpress version is 3.1
+[12:03:20] Looking for 'hmmscan' - found /home/sb2145/.linuxbrew/bin/hmmscan
+[12:03:20] Determined hmmscan version is 3.1
+[12:03:20] Looking for 'less' - found /usr/bin/less
+[12:03:20] Looking for 'makeblastdb' - found /home/sb2145/.linuxbrew/bin/makeblastdb
+[12:03:20] Determined makeblastdb version is 2.4
+[12:03:20] Looking for 'minced' - found /home/sb2145/.linuxbrew/bin/minced
+[12:03:21] Determined minced version is 2.0
+[12:03:21] Looking for 'parallel' - found /home/sb2145/.linuxbrew/bin/parallel
+[12:03:21] Determined parallel version is 20160722
+[12:03:21] Looking for 'prodigal' - found /home/sb2145/.linuxbrew/bin/prodigal
+[12:03:21] Determined prodigal version is 2.6
+[12:03:21] Looking for 'prokka-genbank_to_fasta_db' - found /home/sb2145/.linuxbrew/bin/prokka-genbank_to_fasta_db
+[12:03:21] Looking for 'sed' - found /bin/sed
+[12:03:21] Looking for 'signalp' - found /usr/bin/signalp
+[12:03:21] Determined signalp version is 4.1
+[12:03:21] Looking for 'tbl2asn' - found /home/sb2145/.linuxbrew/bin/tbl2asn
+[12:03:21] Determined tbl2asn version is 24.9
+[12:03:21] Using genetic code table 11.
+[12:03:21] Loading and checking input file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B.fasta
+[12:03:21] Wrote 1 contigs
+[12:03:21] Predicting tRNAs and tmRNAs
+[12:03:21] Running: aragorn -gc11  -w \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/SAP046B\.fna
+[12:03:21] Found 0 tRNAs
+[12:03:21] Predicting Ribosomal RNAs
+[12:03:21] Running Barrnap with 6 threads
+[12:03:21] Found 0 rRNAs
+[12:03:21] Skipping ncRNA search, enable with --rfam if desired.
+[12:03:21] Total of 0 tRNA + rRNA features
+[12:03:21] Searching for CRISPR repeats
+[12:03:21] Found 0 CRISPRs
+[12:03:21] Predicting coding sequences
+[12:03:21] Contigs total 3125 bp, so using meta mode
+[12:03:21] Running: prodigal -i \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/SAP046B\.fna -c -m -g 11 -p meta -f sco -q
+[12:03:21] Found 4 CDS
+[12:03:21] Connecting features back to sequences
+[12:03:21] Option --gram not specified, will NOT check for signal peptides.
+[12:03:21] Using custom Staphylococcus database for annotation
+[12:03:21] Annotating CDS, please be patient.
+[12:03:21] Will use 6 CPUs for similarity searching.
+[12:03:21] There are still 4 unannotated CDS left (started with 4)
+[12:03:21] Will use blast to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/genus/Staphylococcus with 6 CPUs
+[12:03:21] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/Staphylococcus\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe blastp -query - -db /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/genus/Staphylococcus -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/Staphylococcus\.blast 2> /dev/null
+[12:03:22] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//Staphylococcus.faa
+[12:03:22] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//Staphylococcus.blast
+[12:03:22] There are still 4 unannotated CDS left (started with 4)
+[12:03:22] Will use blast to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/kingdom/Bacteria/sprot with 6 CPUs
+[12:03:22] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/sprot\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe blastp -query - -db /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/sprot\.blast 2> /dev/null
+[12:03:23] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//sprot.faa
+[12:03:23] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//sprot.blast
+[12:03:23] There are still 4 unannotated CDS left (started with 4)
+[12:03:23] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/CLUSTERS.hmm with 6 CPUs
+[12:03:23] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/CLUSTERS\.hmm\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/CLUSTERS.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/CLUSTERS\.hmm\.hmmer3 2> /dev/null
+[12:03:24] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//CLUSTERS.hmm.faa
+[12:03:24] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//CLUSTERS.hmm.hmmer3
+[12:03:24] There are still 4 unannotated CDS left (started with 4)
+[12:03:24] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/HAMAP.hmm with 6 CPUs
+[12:03:24] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/HAMAP.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[12:03:24] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//HAMAP.hmm.faa
+[12:03:24] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//HAMAP.hmm.hmmer3
+[12:03:24] There are still 4 unannotated CDS left (started with 4)
+[12:03:24] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/Pfam.hmm with 6 CPUs
+[12:03:24] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/Pfam\.hmm\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/Pfam.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/Pfam\.hmm\.hmmer3 2> /dev/null
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//Pfam.hmm.faa
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//Pfam.hmm.hmmer3
+[12:03:25] Labelling remaining 3 proteins as 'hypothetical protein'
+[12:03:25] Found 0 unique /gene codes.
+[12:03:25] Fixed 0 colliding /gene names.
+[12:03:25] Adding /locus_tag identifiers
+[12:03:25] Assigned 4 locus_tags to CDS and RNA features.
+[12:03:25] Writing outputs to /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//
+[12:03:25] Generating annotation statistics file
+[12:03:25] Generating Genbank and Sequin files
+[12:03:25] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/SAP046B\.err -i \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/SAP046B\.fsa 2> /dev/null
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//errorsummary.val
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//SAP046B.dr
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//SAP046B.fixedproducts
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//SAP046B.ecn
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//SAP046B.val
+[12:03:25] Repairing broken .GBK output that tbl2asn produces...
+[12:03:25] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/SAP046B\.gbf > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/SAP046B\/\/SAP046B\.gbk
+[12:03:25] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B//SAP046B.gbf
+[12:03:25] Output files:
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.txt
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.err
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.sqn
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.ffn
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.faa
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.gbk
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.fsa
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.tbl
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.log
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.fna
+[12:03:25] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046B/SAP046B.gff
+[12:03:25] Walltime used: 0.08 minutes
+[12:03:25] If you use this result please cite the Prokka paper:
+[12:03:25] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:03:25] Type 'prokka --citation' for more details.
+[12:03:25] Share and enjoy!

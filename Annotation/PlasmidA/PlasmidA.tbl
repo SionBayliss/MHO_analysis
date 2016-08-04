@@ -1,0 +1,180 @@
+>Feature PlasmidA
+642	944	CDS
+			EC_number	2.7.7.-
+			gene	aadK
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P17585
+			locus_tag	PlasmidA_00001
+			product	Aminoglycoside 6-adenylyltransferase
+1250	1768	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:CLUSTERS:PRK10975
+			locus_tag	PlasmidA_00002
+			product	TDP-fucosamine acetyltransferase
+1861	2655	CDS
+			EC_number	2.7.1.95
+			gene	aphA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A3Y5
+			locus_tag	PlasmidA_00003
+			product	Aminoglycoside 3'-phosphotransferase
+3137	3502	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00004
+			product	hypothetical protein
+4345	3671	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF00665.20
+			locus_tag	PlasmidA_00005
+			product	Integrase core domain protein
+4505	4383	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00006
+			product	hypothetical protein
+4607	4792	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00007
+			product	hypothetical protein
+5593	5015	CDS
+			gene	hin
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	PlasmidA_00008
+			product	DNA-invertase hin
+6237	5857	CDS
+			gene	blaI
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A042
+			locus_tag	PlasmidA_00009
+			product	Penicillinase repressor
+8026	6227	CDS
+			gene	blaR1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P18357
+			locus_tag	PlasmidA_00010
+			product	Regulatory protein BlaR1
+8091	8936	CDS
+			EC_number	3.5.2.6
+			gene	blaZ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P00807
+			locus_tag	PlasmidA_00011
+			product	Beta-lactamase precursor
+9881	9462	CDS
+			gene	ohrR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O34777
+			locus_tag	PlasmidA_00012
+			product	Organic hydroperoxide resistance transcriptional regulator
+10005	10976	CDS
+			EC_number	1.3.1.84
+			gene	acuI
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P26646
+			locus_tag	PlasmidA_00013
+			product	putative acrylyl-CoA reductase AcuI
+11744	11397	CDS
+			gene	cadC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P20047
+			locus_tag	PlasmidA_00014
+			product	Cadmium resistance transcriptional regulatory protein CadC
+12380	11763	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF03596.7
+			locus_tag	PlasmidA_00015
+			product	Cadmium resistance transporter
+13690	13496	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00016
+			product	hypothetical protein
+13800	14492	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00017
+			product	hypothetical protein
+14777	15157	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00018
+			product	hypothetical protein
+15534	15364	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF01446.11
+			locus_tag	PlasmidA_00019
+			product	Replication protein
+16648	15665	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF06970.5
+			locus_tag	PlasmidA_00020
+			note	Replication initiator protein A (RepA) N-terminus
+			product	hypothetical protein
+17074	17817	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00021
+			product	hypothetical protein
+18229	18044	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:CLUSTERS:PRK04140
+			locus_tag	PlasmidA_00022
+			product	hypothetical protein
+18572	18234	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00023
+			product	hypothetical protein
+19426	18818	CDS
+			gene	bin3
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P20384
+			locus_tag	PlasmidA_00024
+			product	Putative transposon Tn552 DNA-invertase bin3
+20811	19912	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF01636.17
+			locus_tag	PlasmidA_00025
+			product	Phosphotransferase enzyme family protein
+22376	20910	CDS
+			gene	yheS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P63389
+			locus_tag	PlasmidA_00026
+			product	putative ABC transporter ATP-binding protein YheS
+22850	23524	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF00665.20
+			locus_tag	PlasmidA_00027
+			product	Integrase core domain protein
+23594	23959	CDS
+			gene	graR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q932F1
+			locus_tag	PlasmidA_00028
+			product	Response regulator protein GraR
+23956	24138	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidA_00029
+			product	hypothetical protein
+24235	24837	CDS
+			EC_number	2.7.13.3
+			gene	graS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q7A6Z3
+			locus_tag	PlasmidA_00030
+			product	Sensor histidine kinase GraS
+24953	25882	CDS
+			EC_number	3.6.3.-
+			gene	yxlF
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P94374
+			locus_tag	PlasmidA_00031
+			product	putative ABC transporter ATP-binding protein YxlF
+25875	26612	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF12730.1
+			locus_tag	PlasmidA_00032
+			product	ABC-2 family transporter protein
+26626	26829	CDS
+			EC_number	3.6.1.27
+			gene	uppP
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P60932
+			locus_tag	PlasmidA_00033
+			product	Undecaprenyl-diphosphatase

@@ -1,0 +1,18 @@
+>Feature PlasmidB
+1435	440	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF01446.11
+			locus_tag	PlasmidB_00001
+			product	Replication protein
+1812	1639	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidB_00002
+			product	hypothetical protein
+1887	2468	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidB_00003
+			product	hypothetical protein
+3015	2794	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PlasmidB_00004
+			product	hypothetical protein

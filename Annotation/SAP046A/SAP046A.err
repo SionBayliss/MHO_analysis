@@ -1,0 +1,136 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:33 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:gene: 33 present
+DISC_FEATURE_COUNT:CDS: 33 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+OVERLAPPING_GENES:6 genes overlap another gene on the same strand.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:1 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:34 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::33 proteins have invalid IDs.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_1 (length 100)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_2 (length 172)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_3 (length 264)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_4 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_5 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_6 (length 40)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_7 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_8 (length 192)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_9 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_10 (length 599)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_11 (length 281)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_12 (length 139)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_13 (length 323)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_14 (length 115)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_15 (length 205)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_16 (length 64)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_17 (length 230)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_18 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_19 (length 56)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_20 (length 327)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_21 (length 247)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_22 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_23 (length 112)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_24 (length 202)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_25 (length 299)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_26 (length 488)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_27 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_28 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_29 (length 60)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_30 (length 200)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_31 (length 309)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_32 (length 245)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_33 (length 67)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::gene: 33 present
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 33 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+
+DiscRep_ALL:OVERLAPPING_GENES::6 genes overlap another gene on the same strand.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:Gene	SAP046A_00009	lcl|SAP046A:c6237-5857	SAP046A_00009
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:Gene	SAP046A_00010	lcl|SAP046A:c8026-6227	SAP046A_00010
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:Gene	SAP046A_00028	lcl|SAP046A:23594-23959	SAP046A_00028
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:Gene	SAP046A_00029	lcl|SAP046A:23956-24138	SAP046A_00029
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:Gene	SAP046A_00031	lcl|SAP046A:24953-25882	SAP046A_00031
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:Gene	SAP046A_00032	lcl|SAP046A:25875-26612	SAP046A_00032
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A:Annotated using prokka 1.11 from http://www.vicbioinformatics.com
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::1 protein sequences are shorter than 50 aa.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_6 (length 40)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+
+DiscRep_ALL:MISSING_PROJECT::34 sequences do not include project.
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_1 (length 100)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_2 (length 172)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_3 (length 264)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_4 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_5 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_6 (length 40)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_7 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_8 (length 192)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_9 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_10 (length 599)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_11 (length 281)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_12 (length 139)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_13 (length 323)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_14 (length 115)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_15 (length 205)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_16 (length 64)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_17 (length 230)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_18 (length 126)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_19 (length 56)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_20 (length 327)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_21 (length 247)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_22 (length 61)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_23 (length 112)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_24 (length 202)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_25 (length 299)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_26 (length 488)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_27 (length 224)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_28 (length 121)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_29 (length 60)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_30 (length 200)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_31 (length 309)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_32 (length 245)
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A_33 (length 67)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+/mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/SAP046A//SAP046A:SAP046A (length 27068)
+

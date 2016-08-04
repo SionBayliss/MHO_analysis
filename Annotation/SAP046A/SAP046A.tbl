@@ -1,0 +1,274 @@
+>Feature SAP046A
+642	944	CDS
+			EC_number	2.7.7.-
+			Parent	SAP046A_00001_gene
+			gene	aadK
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P17585
+			locus_tag	SAP046A_00001
+			product	Aminoglycoside 6-adenylyltransferase
+642	944	gene
+			gene	aadK
+			locus_tag	SAP046A_00001
+1250	1768	CDS
+			Parent	SAP046A_00002_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005745732.1
+			locus_tag	SAP046A_00002
+			product	acetyltransferase
+1250	1768	gene
+			locus_tag	SAP046A_00002
+1861	2655	CDS
+			EC_number	2.7.1.95
+			Parent	SAP046A_00003_gene
+			gene	aphA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A3Y5
+			locus_tag	SAP046A_00003
+			product	Aminoglycoside 3'-phosphotransferase
+1861	2655	gene
+			gene	aphA
+			locus_tag	SAP046A_00003
+3137	3502	CDS
+			Parent	SAP046A_00004_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00004
+			product	hypothetical protein
+3137	3502	gene
+			locus_tag	SAP046A_00004
+4345	3671	CDS
+			Parent	SAP046A_00005_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005745310.1
+			locus_tag	SAP046A_00005
+			product	transposase for IS-like element
+4345	3671	gene
+			locus_tag	SAP046A_00005
+4505	4383	CDS
+			Parent	SAP046A_00006_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00006
+			product	hypothetical protein
+4505	4383	gene
+			locus_tag	SAP046A_00006
+4607	4792	CDS
+			Parent	SAP046A_00007_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00007
+			product	hypothetical protein
+4607	4792	gene
+			locus_tag	SAP046A_00007
+5593	5015	CDS
+			Parent	SAP046A_00008_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740737.1
+			locus_tag	SAP046A_00008
+			note	Resolvase, N-terminal domain-containing protein
+			product	hypothetical protein
+5593	5015	gene
+			locus_tag	SAP046A_00008
+6237	5857	CDS
+			Parent	SAP046A_00009_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740738.1
+			locus_tag	SAP046A_00009
+			product	transcriptional repressor
+6237	5857	gene
+			locus_tag	SAP046A_00009
+8026	6227	CDS
+			Parent	SAP046A_00010_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740739.1
+			locus_tag	SAP046A_00010
+			product	beta-lactamase regulatory protein
+8026	6227	gene
+			locus_tag	SAP046A_00010
+8091	8936	CDS
+			Parent	SAP046A_00011_gene
+			gene	blaZ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740740.1
+			locus_tag	SAP046A_00011
+			product	beta-lactamase precursor, BlaZ
+8091	8936	gene
+			gene	blaZ
+			locus_tag	SAP046A_00011
+9881	9462	CDS
+			Parent	SAP046A_00012_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005744076.1
+			locus_tag	SAP046A_00012
+			product	MarR family transcriptional regulator
+9881	9462	gene
+			locus_tag	SAP046A_00012
+10005	10976	CDS
+			Parent	SAP046A_00013_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740405.1
+			locus_tag	SAP046A_00013
+			product	zinc-binding alcohol dehydrogenase
+10005	10976	gene
+			locus_tag	SAP046A_00013
+11744	11397	CDS
+			Parent	SAP046A_00014_gene
+			gene	cadX
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740733.1
+			locus_tag	SAP046A_00014
+			product	putative cadmium efflux system accessory protein
+11744	11397	gene
+			gene	cadX
+			locus_tag	SAP046A_00014
+12380	11763	CDS
+			Parent	SAP046A_00015_gene
+			gene	cadD
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740732.1
+			locus_tag	SAP046A_00015
+			product	cadmium resistance transporter, CadD family
+12380	11763	gene
+			gene	cadD
+			locus_tag	SAP046A_00015
+13690	13496	CDS
+			Parent	SAP046A_00016_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00016
+			product	hypothetical protein
+13690	13496	gene
+			locus_tag	SAP046A_00016
+13800	14492	CDS
+			Parent	SAP046A_00017_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00017
+			product	hypothetical protein
+13800	14492	gene
+			locus_tag	SAP046A_00017
+14777	15157	CDS
+			Parent	SAP046A_00018_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00018
+			product	hypothetical protein
+14777	15157	gene
+			locus_tag	SAP046A_00018
+15534	15364	CDS
+			Parent	SAP046A_00019_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF01446.11
+			locus_tag	SAP046A_00019
+			product	Replication protein
+15534	15364	gene
+			locus_tag	SAP046A_00019
+16648	15665	CDS
+			Parent	SAP046A_00020_gene
+			gene	repA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740731.1
+			locus_tag	SAP046A_00020
+			product	replication initiator protein A
+16648	15665	gene
+			gene	repA
+			locus_tag	SAP046A_00020
+17074	17817	CDS
+			Parent	SAP046A_00021_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740752.1
+			locus_tag	SAP046A_00021
+			product	putative replication-associated protein
+17074	17817	gene
+			locus_tag	SAP046A_00021
+18229	18044	CDS
+			Parent	SAP046A_00022_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005745334.1
+			locus_tag	SAP046A_00022
+			product	putative transcriptional regulator
+18229	18044	gene
+			locus_tag	SAP046A_00022
+18572	18234	CDS
+			Parent	SAP046A_00023_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00023
+			product	hypothetical protein
+18572	18234	gene
+			locus_tag	SAP046A_00023
+19426	18818	CDS
+			Parent	SAP046A_00024_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005745336.1
+			locus_tag	SAP046A_00024
+			product	recombinase/resolvase
+19426	18818	gene
+			locus_tag	SAP046A_00024
+20811	19912	CDS
+			Parent	SAP046A_00025_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF01636.17
+			locus_tag	SAP046A_00025
+			product	Phosphotransferase enzyme family protein
+20811	19912	gene
+			locus_tag	SAP046A_00025
+22376	20910	CDS
+			Parent	SAP046A_00026_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740097.1
+			locus_tag	SAP046A_00026
+			product	putative ABC transporter ATP-binding protein
+22376	20910	gene
+			locus_tag	SAP046A_00026
+22850	23524	CDS
+			Parent	SAP046A_00027_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005743429.1
+			locus_tag	SAP046A_00027
+			product	transposase for IS431mec
+22850	23524	gene
+			locus_tag	SAP046A_00027
+23594	23959	CDS
+			Parent	SAP046A_00028_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740644.1
+			locus_tag	SAP046A_00028
+			product	winged helix family two component transcriptional regulator
+23594	23959	gene
+			locus_tag	SAP046A_00028
+23956	24138	CDS
+			Parent	SAP046A_00029_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046A_00029
+			product	hypothetical protein
+23956	24138	gene
+			locus_tag	SAP046A_00029
+24235	24837	CDS
+			Parent	SAP046A_00030_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740643.1
+			locus_tag	SAP046A_00030
+			product	integral membrane sensor signal transduction histidine kinase
+24235	24837	gene
+			locus_tag	SAP046A_00030
+24953	25882	CDS
+			Parent	SAP046A_00031_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005740536.1
+			locus_tag	SAP046A_00031
+			product	ABC superfamily ATP binding cassette transporter, ABC protein
+24953	25882	gene
+			locus_tag	SAP046A_00031
+25875	26612	CDS
+			Parent	SAP046A_00032_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF12730.1
+			locus_tag	SAP046A_00032
+			product	ABC-2 family transporter protein
+25875	26612	gene
+			locus_tag	SAP046A_00032
+26626	26829	CDS
+			Parent	SAP046A_00033_gene
+			gene	bacA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:RefSeq:YP_005738796.1
+			locus_tag	SAP046A_00033
+			product	bacitracin resistance protein, undecaprenyl pyrophosphate phosphatase
+26626	26829	gene
+			gene	bacA
+			locus_tag	SAP046A_00033

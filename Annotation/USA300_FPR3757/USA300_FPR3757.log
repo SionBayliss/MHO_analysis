@@ -1,0 +1,381 @@
+[12:00:49] Command: --outdir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/ --prefix USA300_FPR3757 --force --locustag USA300_FPR3757 --genus Staphylococcus --species aureus --kingdom Bacteria --addgenes --usegenus --cpus 6 /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757.fasta
+[12:00:49] Looking for 'aragorn' - found /home/sb2145/.linuxbrew/bin/aragorn
+[12:00:49] Determined aragorn version is 1.2
+[12:00:49] Looking for 'barrnap' - found /home/sb2145/.linuxbrew/bin/barrnap
+[12:00:49] Determined barrnap version is 0.7
+[12:00:49] Looking for 'blastp' - found /home/sb2145/.linuxbrew/bin/blastp
+[12:00:50] Determined blastp version is 2.4
+[12:00:50] Looking for 'cmpress' - found /home/sb2145/.linuxbrew/bin/cmpress
+[12:00:50] Determined cmpress version is 1.1
+[12:00:50] Looking for 'cmscan' - found /home/sb2145/.linuxbrew/bin/cmscan
+[12:00:50] Determined cmscan version is 1.1
+[12:00:50] Looking for 'egrep' - found /bin/egrep
+[12:00:50] Looking for 'find' - found /usr/bin/find
+[12:00:50] Looking for 'grep' - found /bin/grep
+[12:00:50] Looking for 'hmmpress' - found /home/sb2145/.linuxbrew/bin/hmmpress
+[12:00:50] Determined hmmpress version is 3.1
+[12:00:50] Looking for 'hmmscan' - found /home/sb2145/.linuxbrew/bin/hmmscan
+[12:00:50] Determined hmmscan version is 3.1
+[12:00:50] Looking for 'less' - found /usr/bin/less
+[12:00:50] Looking for 'makeblastdb' - found /home/sb2145/.linuxbrew/bin/makeblastdb
+[12:00:50] Determined makeblastdb version is 2.4
+[12:00:50] Looking for 'minced' - found /home/sb2145/.linuxbrew/bin/minced
+[12:00:50] Determined minced version is 2.0
+[12:00:50] Looking for 'parallel' - found /home/sb2145/.linuxbrew/bin/parallel
+[12:00:50] Determined parallel version is 20160722
+[12:00:50] Looking for 'prodigal' - found /home/sb2145/.linuxbrew/bin/prodigal
+[12:00:50] Determined prodigal version is 2.6
+[12:00:50] Looking for 'prokka-genbank_to_fasta_db' - found /home/sb2145/.linuxbrew/bin/prokka-genbank_to_fasta_db
+[12:00:50] Looking for 'sed' - found /bin/sed
+[12:00:50] Looking for 'signalp' - found /usr/bin/signalp
+[12:00:50] Determined signalp version is 4.1
+[12:00:50] Looking for 'tbl2asn' - found /home/sb2145/.linuxbrew/bin/tbl2asn
+[12:00:50] Determined tbl2asn version is 24.9
+[12:00:50] Using genetic code table 11.
+[12:00:50] Loading and checking input file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757.fasta
+[12:00:51] Wrote 1 contigs
+[12:00:51] Predicting tRNAs and tmRNAs
+[12:00:51] Running: aragorn -gc11  -w \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/USA300_FPR3757\.fna
+[12:00:52] 1 tRNA-Glu [24178,24252] 34 (ttc)
+[12:00:52] 2 tRNA-Asp [24260,24332] 34 (gtc)
+[12:00:52] 3 tRNA-Ser [503651,503743] 37 (tga)
+[12:00:52] 4 tRNA-Ala [556324,556399] 34 (tgc)
+[12:00:52] 5 tRNA-Ile [558168,558244] 35 (gat)
+[12:00:52] 6 tRNA-Arg c[838317,838389] 34 (ccg)
+[12:00:52] 7 tmRNA [854460,854818] 94,129 GKSNNNFAVAA*
+[12:00:52] 8 tRNA-Ser c[1018759,1018849] 37 (gct)
+[12:00:52] 9 tRNA-Asn c[1018851,1018925] 33 (gtt)
+[12:00:52] 10 tRNA-Arg c[1167960,1168035] 36 (tct)
+[12:00:52] 11 tRNA-Ser c[1960620,1960708] 36 (gga)
+[12:00:52] 12 tRNA-Glu c[1960762,1960835] 35 (ttc)
+[12:00:52] 13 tRNA-Asn c[1960836,1960910] 33 (gtt)
+[12:00:52] 14 tRNA-Gly c[1960925,1960998] 33 (tcc)
+[12:00:52] 15 tRNA-His c[1961014,1961089] 34 (gtg)
+[12:00:52] 16 tRNA-Phe c[1961103,1961175] 34 (gaa)
+[12:00:52] 17 tRNA-Asp c[1961192,1961267] 34 (gtc)
+[12:00:52] 18 tRNA-Met c[1961289,1961362] 35 (cat)
+[12:00:52] 19 tRNA-Leu c[1995143,1995226] 35 (caa)
+[12:00:52] 20 tRNA-Gly c[1995265,1995339] 34 (tcc)
+[12:00:52] 21 tRNA-Gly c[1995353,1995427] 34 (tcc)
+[12:00:52] 22 tRNA-Gly c[1995443,1995517] 34 (tcc)
+[12:00:52] 23 tRNA-Cys c[1995525,1995598] 33 (gca)
+[12:00:52] 24 tRNA-Gln c[1995604,1995675] 33 (ttg)
+[12:00:52] 25 tRNA-His c[1995686,1995759] 34 (gtg)
+[12:00:52] 26 tRNA-Trp c[1995762,1995835] 33 (cca)
+[12:00:52] 27 tRNA-Tyr c[1995850,1995932] 36 (gta)
+[12:00:52] 28 tRNA-Thr c[1995937,1996012] 34 (tgt)
+[12:00:52] 29 tRNA-Phe c[1996019,1996093] 35 (gaa)
+[12:00:52] 30 tRNA-Asp c[1996111,1996186] 34 (gtc)
+[12:00:52] 31 tRNA-Met c[1996195,1996270] 36 (cat)
+[12:00:52] 32 tRNA-Ser c[1996284,1996376] 37 (tga)
+[12:00:52] 33 tRNA-Asp c[1996415,1996490] 34 (gtc)
+[12:00:52] 34 tRNA-Ser c[1996500,1996591] 38 (tga)
+[12:00:52] 35 tRNA-Met c[1996600,1996673] 35 (cat)
+[12:00:52] 36 tRNA-Met c[1996701,1996775] 35 (cat)
+[12:00:52] 37 tRNA-Ala c[1996797,1996872] 34 (tgc)
+[12:00:52] 38 tRNA-Pro c[1996890,1996963] 35 (tgg)
+[12:00:52] 39 tRNA-Arg c[1996972,1997047] 36 (acg)
+[12:00:52] 40 tRNA-Leu c[1997065,1997153] 35 (taa)
+[12:00:52] 41 tRNA-Gly c[1997164,1997238] 33 (gcc)
+[12:00:52] 42 tRNA-Leu c[1997241,1997324] 36 (tag)
+[12:00:52] 43 tRNA-Lys c[1997327,1997402] 34 (ttt)
+[12:00:52] 44 tRNA-Thr c[1997408,1997483] 34 (tgt)
+[12:00:52] 45 tRNA-Val c[1997500,1997575] 34 (tac)
+[12:00:52] 46 tRNA-Ala c[2000910,2000985] 34 (tgc)
+[12:00:52] 47 tRNA-Ile c[2001004,2001080] 35 (gat)
+[12:00:52] 48 tRNA-Gly c[2181139,2181212] 33 (tcc)
+[12:00:52] 49 tRNA-Leu c[2181235,2181317] 34 (gag)
+[12:00:52] 50 tRNA-Lys c[2291850,2291923] 34 (ttt)
+[12:00:52] 51 tRNA-Gln c[2291927,2292001] 33 (ttg)
+[12:00:52] 52 tRNA-Tyr c[2292011,2292094] 35 (gta)
+[12:00:52] 53 tRNA-Val c[2292124,2292199] 34 (tac)
+[12:00:52] 54 tRNA-Glu c[2292206,2292279] 35 (ttc)
+[12:00:52] 55 tRNA-Asn c[2292280,2292354] 33 (gtt)
+[12:00:52] 56 tRNA-Gln c[2393555,2393647] 40 (ttg)
+[12:00:52] Found 56 tRNAs
+[12:00:52] Predicting Ribosomal RNAs
+[12:00:52] Running Barrnap with 6 threads
+[12:00:55] 1 USA300_FPR3757 512893 16S ribosomal RNA
+[12:00:55] 2 USA300_FPR3757 514811 23S ribosomal RNA
+[12:00:55] 3 USA300_FPR3757 517806 5S ribosomal RNA (partial)
+[12:00:55] 4 USA300_FPR3757 556199 5S ribosomal RNA (partial)
+[12:00:55] 5 USA300_FPR3757 556524 16S ribosomal RNA
+[12:00:55] 6 USA300_FPR3757 558414 23S ribosomal RNA
+[12:00:55] 7 USA300_FPR3757 561409 5S ribosomal RNA (partial)
+[12:00:55] 8 USA300_FPR3757 1997622 5S ribosomal RNA (partial)
+[12:00:55] 9 USA300_FPR3757 1997776 23S ribosomal RNA
+[12:00:55] 10 USA300_FPR3757 2001172 16S ribosomal RNA
+[12:00:55] 11 USA300_FPR3757 2175846 5S ribosomal RNA (partial)
+[12:00:55] 12 USA300_FPR3757 2176000 23S ribosomal RNA
+[12:00:55] 13 USA300_FPR3757 2179469 16S ribosomal RNA
+[12:00:55] 14 USA300_FPR3757 2292400 5S ribosomal RNA (partial)
+[12:00:55] 15 USA300_FPR3757 2292554 23S ribosomal RNA
+[12:00:55] 16 USA300_FPR3757 2296023 16S ribosomal RNA
+[12:00:55] Found 16 rRNAs
+[12:00:55] Skipping ncRNA search, enable with --rfam if desired.
+[12:00:55] Total of 71 tRNA + rRNA features
+[12:00:55] Searching for CRISPR repeats
+[12:00:55] CRISPR1 USA300_FPR3757 940549 with 5 spacers
+[12:00:55] CRISPR2 USA300_FPR3757 2388923 with 4 spacers
+[12:00:55] Found 2 CRISPRs
+[12:00:55] Predicting coding sequences
+[12:00:55] Contigs total 2872769 bp, so using single mode
+[12:00:55] Running: prodigal -i \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/USA300_FPR3757\.fna -c -m -g 11 -p single -f sco -q
+[12:01:06] Excluding CDS which overlaps existing RNA (tRNA) at USA300_FPR3757:2393409..2393903 on + strand
+[12:01:07] Found 2650 CDS
+[12:01:07] Connecting features back to sequences
+[12:01:07] Option --gram not specified, will NOT check for signal peptides.
+[12:01:07] Using custom Staphylococcus database for annotation
+[12:01:07] Annotating CDS, please be patient.
+[12:01:07] Will use 6 CPUs for similarity searching.
+[12:01:11] There are still 2650 unannotated CDS left (started with 2650)
+[12:01:11] Will use blast to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/genus/Staphylococcus with 6 CPUs
+[12:01:11] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/Staphylococcus\.faa | parallel --gnu --plain -j 6 --block 67864 --recstart '>' --pipe blastp -query - -db /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/genus/Staphylococcus -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/Staphylococcus\.blast 2> /dev/null
+[12:01:31] Modify product: transcription termination-antitermination factor => hypothetical protein
+[12:01:31] Modify product: ribosomal protein L7AE family => ribosomal protein L7AE family protein
+[12:01:32] Modify product: transcription termination/antitermination factor NusG => hypothetical protein
+[12:01:32] Modify product: conserved NfeD-like membrane protein => hypothetical protein
+[12:01:32] Modify product: truncated transposase for IS1272 => truncated transposase for
+[12:01:32] Modify product: TfoX N-terminal domain-containing protein => hypothetical protein
+[12:01:32] Modify product: transcriptional regulator Cro/CI family => transcriptional regulator Cro/CI family protein
+[12:01:33] Modify product: putative transposase for IS1272 => putative transposase for
+[12:01:33] Modify product: putative transposase for IS1272 => putative transposase for
+[12:01:33] Modify product: conserved ubiquitin-like protein => hypothetical protein
+[12:01:33] Modify product: conserved multitransmembrane protein => hypothetical protein
+[12:01:33] Modify product: conserved multitransmembrane protein => hypothetical protein
+[12:01:33] Modify product: transcription termination/antitermination factor NusG => hypothetical protein
+[12:01:34] Modify product: staphylococcal accessory regulator family => staphylococcal accessory regulator family protein
+[12:01:34] Modify product: Conserved hypothetical DegV family protein => hypothetical protein
+[12:01:34] Modify product: conserved cytoplasmic protein => hypothetical protein
+[12:01:35] Modify product: putative transposase for IS1272 => putative transposase for
+[12:01:35] Modify product: putative conserved peptidase => hypothetical protein
+[12:01:35] Modify product: Scaffold protein Nfu/NifU N terminal => hypothetical protein
+[12:01:35] Modify product: nucleoside diphosphate kinase superfamily => nucleoside diphosphate kinase superfamily protein
+[12:01:35] Modify product: SNF2 family N-terminal domain protein => hypothetical protein
+[12:01:35] Modify product: VRR-NUC domain => VRR-NUC domain protein
+[12:01:35] Modify product: putative transposase for IS1272 => putative transposase for
+[12:01:35] Modify product: truncated transposase for IS1272 => truncated transposase for
+[12:01:35] Modify product: truncated transposase for IS1272 => truncated transposase for
+[12:01:35] Modify product: large conserved outer membrane protein => hypothetical protein
+[12:01:35] Modify product: conserved cytoplasmic protein => hypothetical protein
+[12:01:36] Modify product: RecF/RecN/SMC N terminal domain-containing protein => hypothetical protein
+[12:01:36] Modify product: truncated transposase for IS1272 => truncated transposase for
+[12:01:36] Modify product: truncated transposase for IS1272 => truncated transposase for
+[12:01:36] Modify product: putative transposase for IS1272 => putative transposase for
+[12:01:36] Modify product: staphylococcal accessory regulator family => staphylococcal accessory regulator family protein
+[12:01:37] Modify product: truncated transposase for IS1272 => truncated transposase for
+[12:01:37] Modify product: Acetyltransferase (GNAT) family => Acetyltransferase (GNAT) family protein
+[12:01:37] Modify product: conserved regulatory protein => hypothetical protein
+[12:01:37] Modify product: conserved cytoplasmic protein => hypothetical protein
+[12:01:37] Modify product: conserved low-complexity protein => hypothetical protein
+[12:01:37] Cleaned 37 /product names
+[12:01:37] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//Staphylococcus.faa
+[12:01:37] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//Staphylococcus.blast
+[12:01:38] There are still 567 unannotated CDS left (started with 2650)
+[12:01:38] Will use blast to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/kingdom/Bacteria/sprot with 6 CPUs
+[12:01:38] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/sprot\.faa | parallel --gnu --plain -j 6 --block 8265 --recstart '>' --pipe blastp -query - -db /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/sprot\.blast 2> /dev/null
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable amino-acid metabolite efflux pump => putative amino-acid metabolite efflux pump
+[12:01:45] Modify product: Ribonuclease BC_0920 => Ribonuclease
+[12:01:45] Modify product: Uncharacterized beta-barrel protein YwiB => putative beta-barrel protein YwiB
+[12:01:45] Modify product: Probable transcriptional regulatory protein SAV0669 => putative transcriptional regulatory protein
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Probable antitoxin YezG => putative antitoxin YezG
+[12:01:45] Modify product: Nucleoid-associated protein SA0437 => Nucleoid-associated protein
+[12:01:45] Modify product: Conserved virulence factor B => hypothetical protein
+[12:01:45] Modify product: Uncharacterized lipoprotein YehR precursor => putative lipoprotein YehR precursor
+[12:01:45] Modify product: Putative surface protein SA2285 precursor => Putative surface protein precursor
+[12:01:45] Modify product: Probable peptide export permease protein YydJ => putative peptide export permease protein YydJ
+[12:01:45] Modify product: Uncharacterized inner membrane transporter YicL => putative inner membrane transporter YicL
+[12:01:45] Modify product: Uncharacterized lipoprotein SA2158 precursor => putative lipoprotein precursor
+[12:01:45] Cleaned 21 /product names
+[12:01:45] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//sprot.faa
+[12:01:45] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//sprot.blast
+[12:01:46] There are still 512 unannotated CDS left (started with 2650)
+[12:01:46] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/CLUSTERS.hmm with 6 CPUs
+[12:01:46] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/CLUSTERS\.hmm\.faa | parallel --gnu --plain -j 6 --block 7260 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/CLUSTERS.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/CLUSTERS\.hmm\.hmmer3 2> /dev/null
+[12:02:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//CLUSTERS.hmm.faa
+[12:02:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//CLUSTERS.hmm.hmmer3
+[12:02:13] There are still 486 unannotated CDS left (started with 2650)
+[12:02:13] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/HAMAP.hmm with 6 CPUs
+[12:02:13] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 6 --block 6883 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/HAMAP.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[12:02:22] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//HAMAP.hmm.faa
+[12:02:22] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//HAMAP.hmm.hmmer3
+[12:02:23] There are still 483 unannotated CDS left (started with 2650)
+[12:02:23] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/Pfam.hmm with 6 CPUs
+[12:02:23] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/Pfam\.hmm\.faa | parallel --gnu --plain -j 6 --block 6743 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/Pfam.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/Pfam\.hmm\.hmmer3 2> /dev/null
+[12:02:52] Modify product: Integrase core domain => Integrase core domain protein
+[12:02:52] Modify product: Integrase core domain => Integrase core domain protein
+[12:02:52] Modify product: PSP1 C-terminal conserved region => hypothetical protein
+[12:02:52] Modify product: YacP-like NYN domain => YacP-like NYN domain protein
+[12:02:52] Modify product: YwhD family => YwhD family protein
+[12:02:52] Modify product: EamA-like transporter family => EamA-like transporter family protein
+[12:02:52] Modify product: Tetratricopeptide repeat => Tetratricopeptide repeat protein
+[12:02:52] Modify product: YGGT family => YGGT family protein
+[12:02:52] Modify product: Lantibiotic dehydratase, C terminus => hypothetical protein
+[12:02:52] Modify product: Fusaric acid resistance protein family => Fusaric acid resistance protein family protein
+[12:02:52] Modify product: DinB superfamily => DinB superfamily protein
+[12:02:52] Modify product: Integrase core domain => Integrase core domain protein
+[12:02:52] Modify product: TcpE family => TcpE family protein
+[12:02:52] Modify product: Cysteine-rich secretory protein family => Cysteine-rich secretory protein family protein
+[12:02:52] Modify product: PD-(D/E)XK nuclease superfamily => PD-(D/E)XK nuclease superfamily protein
+[12:02:52] Modify product: EVE domain => EVE domain protein
+[12:02:52] Modify product: Fusaric acid resistance protein family => Fusaric acid resistance protein family protein
+[12:02:52] Modify product: Beta-lactamase superfamily domain => Beta-lactamase superfamily domain protein
+[12:02:52] Modify product: Fusaric acid resistance protein family => Fusaric acid resistance protein family protein
+[12:02:52] Modify product: Virus attachment protein p12 family => Virus attachment protein p12 family protein
+[12:02:52] Cleaned 20 /product names
+[12:02:52] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//Pfam.hmm.faa
+[12:02:52] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//Pfam.hmm.hmmer3
+[12:02:52] Labelling remaining 437 proteins as 'hypothetical protein'
+[12:02:52] Possible /pseudo 'oligopeptide ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 82906
+[12:02:52] Possible /pseudo 'staphylococcal tandem lipoprotein' at USA300_FPR3757 position 110989
+[12:02:52] Possible /pseudo 'staphylococcal tandem lipoprotein' at USA300_FPR3757 position 111856
+[12:02:52] Possible /pseudo 'staphylococcal tandem lipoprotein' at USA300_FPR3757 position 112693
+[12:02:52] Possible /pseudo 'ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 162035
+[12:02:52] Possible /pseudo 'capsular polysaccharide biosynthesis protein Cap5D' at USA300_FPR3757 position 177288
+[12:02:52] Possible /pseudo 'maltose/maltodextrin ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 249815
+[12:02:52] Possible /pseudo 'ABC-2 family transporter protein' at USA300_FPR3757 position 324935
+[12:02:52] Possible /pseudo 'putative antitoxin YezG' at USA300_FPR3757 position 347152
+[12:02:52] Possible /pseudo 'putative antitoxin YezG' at USA300_FPR3757 position 348169
+[12:02:52] Possible /pseudo 'putative antitoxin YezG' at USA300_FPR3757 position 350651
+[12:02:52] Possible /pseudo 'putative antitoxin YezG' at USA300_FPR3757 position 351162
+[12:02:52] Possible /pseudo 'putative antitoxin YezG' at USA300_FPR3757 position 351673
+[12:02:52] Possible /pseudo 'putative antitoxin YezG' at USA300_FPR3757 position 352184
+[12:02:52] Possible /pseudo 'bifunctional cystathionine gamma-lyase/gamma-synthase' at USA300_FPR3757 position 413260
+[12:02:52] Possible /pseudo 'superantigen-like protein' at USA300_FPR3757 position 447403
+[12:02:52] Possible /pseudo 'superantigen-like protein' at USA300_FPR3757 position 448389
+[12:02:52] Possible /pseudo 'superantigen-like protein' at USA300_FPR3757 position 449812
+[12:02:52] Possible /pseudo 'staphylococcal tandem lipoprotein' at USA300_FPR3757 position 464429
+[12:02:52] Possible /pseudo 'staphylococcal tandem lipoprotein' at USA300_FPR3757 position 466923
+[12:02:52] Possible /pseudo 'staphylococcal tandem lipoprotein' at USA300_FPR3757 position 467725
+[12:02:52] Possible /pseudo 'deoxynucleoside kinase' at USA300_FPR3757 position 607959
+[12:02:52] Possible /pseudo 'poly (glycerol-phosphate) alpha-glucosyltransferase' at USA300_FPR3757 position 624075
+[12:02:52] Possible /pseudo 'ABC superfamily ATP binding cassette transporter, ABC protein' at USA300_FPR3757 position 744523
+[12:02:52] Possible /pseudo 'iron (Fe+3) ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 798994
+[12:02:52] Possible /pseudo 'Helix-turn-helix' at USA300_FPR3757 position 885796
+[12:02:52] Possible /pseudo 'hypothetical bovine pathogenicity island protein' at USA300_FPR3757 position 886476
+[12:02:52] Possible /pseudo 'oligopeptide ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 975075
+[12:02:52] Possible /pseudo 'oligopeptide ABC superfamily ATP binding cassette transporter, ABC protein' at USA300_FPR3757 position 977234
+[12:02:52] Possible /pseudo 'oligopeptide ABC superfamily ATP binding cassette transporter, ABC protein' at USA300_FPR3757 position 982816
+[12:02:52] Possible /pseudo 'competence protein CoiA' at USA300_FPR3757 position 988947
+[12:02:52] Possible /pseudo 'binding-protein-dependent transport system inner membrane protein' at USA300_FPR3757 position 1096447
+[12:02:52] Possible /pseudo 'superantigen-like protein' at USA300_FPR3757 position 1159595
+[12:02:52] Possible /pseudo 'superantigen-like protein' at USA300_FPR3757 position 1160415
+[12:02:52] Possible /pseudo 'antibacterial protein (phenol soluble modulin)' at USA300_FPR3757 position 1168589
+[12:02:52] Possible /pseudo 'putative cell division protein' at USA300_FPR3757 position 1180104
+[12:02:52] Possible /pseudo 'ABC-type dipeptide/oligopeptide/nickel transporter, ATPase component 2' at USA300_FPR3757 position 1402381
+[12:02:52] Possible /pseudo 'oligopeptide ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 1403964
+[12:02:52] Possible /pseudo 'phosphate ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 1410222
+[12:02:52] Possible /pseudo 'putative lipoprotein' at USA300_FPR3757 position 1544728
+[12:02:52] Possible /pseudo 'phage protein' at USA300_FPR3757 position 1552737
+[12:02:52] Possible /pseudo 'phage protein' at USA300_FPR3757 position 1554663
+[12:02:52] Possible /pseudo 'bacteriophage transcriptional regulator' at USA300_FPR3757 position 1588081
+[12:02:52] Possible /pseudo 'peptidase U32 family protein' at USA300_FPR3757 position 1719129
+[12:02:52] Possible /pseudo 'crossover junction endodeoxyribonuclease' at USA300_FPR3757 position 1752637
+[12:02:52] Possible /pseudo 'S1B family serine protease SplE' at USA300_FPR3757 position 1939625
+[12:02:52] Possible /pseudo 'S1B family serine protease SplE' at USA300_FPR3757 position 1940499
+[12:02:52] Possible /pseudo 'peptidase S1 and S6, chymotrypsin/Hap' at USA300_FPR3757 position 1942116
+[12:02:52] Possible /pseudo 'peptidase S1 and S6, chymotrypsin/Hap' at USA300_FPR3757 position 1942963
+[12:02:52] Possible /pseudo 'membrane-flanked domain-containing protein' at USA300_FPR3757 position 2190687
+[12:02:52] Possible /pseudo 'methicillin resistance determinant FmtB protein' at USA300_FPR3757 position 2282385
+[12:02:52] Possible /pseudo 'truncated transposase for' at USA300_FPR3757 position 2318471
+[12:02:52] Possible /pseudo 'cobalt transporter ATP-binding subunit' at USA300_FPR3757 position 2356091
+[12:02:52] Possible /pseudo 'ABC superfamily ATP binding cassette transporter, ABC/membrane protein' at USA300_FPR3757 position 2553116
+[12:02:52] Possible /pseudo 'oligopeptide ABC superfamily ATP binding cassette transporter, membrane protein' at USA300_FPR3757 position 2594805
+[12:02:52] Possible /pseudo 'putative staphylococcal tandem lipoprotein' at USA300_FPR3757 position 2613186
+[12:02:52] Possible /pseudo 'membrane protein' at USA300_FPR3757 position 2866102
+[12:02:53] Found 1192 unique /gene codes.
+[12:02:53] Fixed 2 duplicate /gene - copA_1 copA_2
+[12:02:53] Fixed 2 duplicate /gene - crcB_1 crcB_2
+[12:02:53] Fixed 2 duplicate /gene - arcC1_1 arcC1_2
+[12:02:53] Fixed 2 duplicate /gene - rpsN_1 rpsN_2
+[12:02:53] Fixed 2 duplicate /gene - recD_1 recD_2
+[12:02:53] Fixed 2 duplicate /gene - splC_1 splC_2
+[12:02:53] Fixed 2 duplicate /gene - mtlA_1 mtlA_2
+[12:02:53] Fixed 2 duplicate /gene - lrgA_1 lrgA_2
+[12:02:53] Fixed 2 duplicate /gene - coiA_1 coiA_2
+[12:02:53] Fixed 2 duplicate /gene - opp-1D_1 opp-1D_2
+[12:02:53] Fixed 2 duplicate /gene - arcA_1 arcA_2
+[12:02:53] Fixed 2 duplicate /gene - mvaS_1 mvaS_2
+[12:02:53] Fixed 2 duplicate /gene - lpl8_1 lpl8_2
+[12:02:53] Fixed 2 duplicate /gene - mnhG_1 mnhG_2
+[12:02:53] Fixed 2 duplicate /gene - sua5_1 sua5_2
+[12:02:53] Fixed 2 duplicate /gene - gyrB_1 gyrB_2
+[12:02:53] Fixed 3 duplicate /gene - splE_1 splE_2 splE_3
+[12:02:53] Fixed 2 duplicate /gene - cap5D_1 cap5D_2
+[12:02:53] Fixed 2 duplicate /gene - dus_1 dus_2
+[12:02:53] Fixed 2 duplicate /gene - ilvA_1 ilvA_2
+[12:02:53] Fixed 2 duplicate /gene - cbiO_1 cbiO_2
+[12:02:53] Fixed 2 duplicate /gene - ssaA_1 ssaA_2
+[12:02:53] Fixed 2 duplicate /gene - lrgB_1 lrgB_2
+[12:02:53] Fixed 2 duplicate /gene - mnhB_1 mnhB_2
+[12:02:53] Fixed 2 duplicate /gene - mnhD_1 mnhD_2
+[12:02:53] Fixed 2 duplicate /gene - argF_1 argF_2
+[12:02:53] Fixed 3 duplicate /gene - uspA_1 uspA_2 uspA_3
+[12:02:53] Fixed 2 duplicate /gene - arcD_1 arcD_2
+[12:02:53] Fixed 2 duplicate /gene - tarF_1 tarF_2
+[12:02:53] Fixed 2 duplicate /gene - hsdS_1 hsdS_2
+[12:02:53] Fixed 2 duplicate /gene - brnQ_1 brnQ_2
+[12:02:53] Fixed 2 duplicate /gene - csoR_1 csoR_2
+[12:02:53] Fixed 2 duplicate /gene - accC_1 accC_2
+[12:02:53] Fixed 2 duplicate /gene - atpA_1 atpA_2
+[12:02:53] Fixed 2 duplicate /gene - atpB_1 atpB_2
+[12:02:53] Fixed 2 duplicate /gene - araC_1 araC_2
+[12:02:53] Fixed 2 duplicate /gene - accB_1 accB_2
+[12:02:53] Fixed 2 duplicate /gene - nikE_1 nikE_2
+[12:02:53] Fixed 2 duplicate /gene - ispD_1 ispD_2
+[12:02:53] Fixed 2 duplicate /gene - secY_1 secY_2
+[12:02:53] Fixed 2 duplicate /gene - coaBC_1 coaBC_2
+[12:02:53] Fixed 2 duplicate /gene - mnhE_1 mnhE_2
+[12:02:53] Fixed 2 duplicate /gene - opp-1A_1 opp-1A_2
+[12:02:53] Fixed 2 duplicate /gene - opp-2C_1 opp-2C_2
+[12:02:53] Fixed 2 duplicate /gene - mnhF_1 mnhF_2
+[12:02:53] Fixed 2 duplicate /gene - rpmG_1 rpmG_2
+[12:02:53] Fixed 2 duplicate /gene - opp-2B_1 opp-2B_2
+[12:02:53] Fixed 4 duplicate /gene - lpl1_1 lpl1_2 lpl1_3 lpl1_4
+[12:02:53] Fixed 10 duplicate /gene - yezG_1 yezG_2 yezG_3 yezG_4 yezG_5 yezG_6 yezG_7 yezG_8 yezG_9 yezG_10
+[12:02:53] Fixed 2 duplicate /gene - mazG_1 mazG_2
+[12:02:53] Fixed 2 duplicate /gene - dapD_1 dapD_2
+[12:02:53] Fixed 2 duplicate /gene - argR_1 argR_2
+[12:02:53] Fixed 2 duplicate /gene - mnhC_1 mnhC_2
+[12:02:53] Fixed 2 duplicate /gene - hsdM_1 hsdM_2
+[12:02:53] Fixed 54 colliding /gene names.
+[12:02:53] Adding /locus_tag identifiers
+[12:02:53] Assigned 2722 locus_tags to CDS and RNA features.
+[12:02:53] Writing outputs to /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//
+[12:03:01] Generating annotation statistics file
+[12:03:01] Generating Genbank and Sequin files
+[12:03:01] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/USA300_FPR3757\.err -i \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/USA300_FPR3757\.fsa 2> /dev/null
+[12:03:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//errorsummary.val
+[12:03:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//USA300_FPR3757.dr
+[12:03:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//USA300_FPR3757.fixedproducts
+[12:03:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//USA300_FPR3757.ecn
+[12:03:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//USA300_FPR3757.val
+[12:03:13] Repairing broken .GBK output that tbl2asn produces...
+[12:03:13] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/USA300_FPR3757\.gbf > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/USA300_FPR3757\/\/USA300_FPR3757\.gbk
+[12:03:13] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757//USA300_FPR3757.gbf
+[12:03:13] Output files:
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.ffn
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.tbl
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.err
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.fna
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.faa
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.fsa
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.sqn
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.gbk
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.gff
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.log
+[12:03:13] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/USA300_FPR3757/USA300_FPR3757.txt
+[12:03:13] Walltime used: 2.40 minutes
+[12:03:13] If you use this result please cite the Prokka paper:
+[12:03:13] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:03:13] Type 'prokka --citation' for more details.
+[12:03:13] Thank you, come again.

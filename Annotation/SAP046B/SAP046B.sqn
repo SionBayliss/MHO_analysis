@@ -1,0 +1,420 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Staphylococcus aureus" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.11 from
+ http://www.vicbioinformatics.com" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 4 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2016 } } } ,
+        create-date
+          std {
+            year 2016 ,
+            month 8 ,
+            day 4 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "SAP046B" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 3125 ,
+            seq-data
+              iupacna "AACGCAAATATGAGCCAAATAAATATATGGTAATTTCACAAACAAAAATTTCAGC
+AAAACCAGTGACTAATTTTTTAACACTGCCCATTTACATGCAAATTAAAAATTAGCATAAAATCCTTTAAAACTTCCA
+CATGTTTTTCTAAATTCCTGCAGGGCGTTTTTTATCAAAAATCGAGAATTTTTAATTTTTCTCTAAAAACTCCGTAAG
+AGCATAAGGAGAATTTGCTATCATTCAAAAATGATAGGTCTGGCAAAGCCAGAAATTCCAGGGGTTTTAAGGTATTTT
+AAAGTGATATCATACAAAGCTGTACTGTCTTATTTTTGTGACACAATATATTGCGTTTGTCTTATTTTTGTGACACTA
+CATACAGCATTTGTCACAAAAATAAGACAGTACTTTTTTATAAAAAATCAACAAAAAAGACATTAGTCAACACTAATG
+TCTTAAATAATAATTTTGCTTTTCGAAATTCCAAATTGCGGTAATTGAATGTGCTTTTTCTTCTTCGTCTGTTGTTTT
+ATCTTCATCACTTGCATTAATCAAATTACCATCTTCGACATCGTCTAAGTTTAAAATTTTATGTTTTTGTTTAAGCAA
+TCCACCATAACTTAACATACGTTTTCGATACAAACCTTTTTCTAAATCACTTACAATTTCTTGATTTTTTTCATCATC
+ATCAGTTAAAAAATCAGATGATTTAACCGAATATTTTGAGGTCTCTTTGATTGCCGATTCAATGTCTTTATCGCCTTT
+TCTATTCGGTTTGATCGCTTTAACATTAGCAACAGGTCGATAGTCAACTTGTAATGCTCTTTGCCATAAATTAACCCA
+TTCTTCTTGAGTTATATAATTCTCTTTTTTTCTAAAATATGCATTTTCAACACATAACAAAACATGCATGTGCTGATT
+ATAACTACCGTCATTTTTATTAACGGTAACTTCTGTTGAACGCATAAATCCAACAAGATTTTGTTTAACCTTTTTATA
+TCTACTCAACCTATCAAATGCTTTAGTTAGATGCTTCAAACTTTGTTCTAAAGTATCTCCATCTATCGCATTTTTTGT
+TGAAAGTGTTAAAAACAACCAACGTGCTTTTGGCTTTTCCTTAATTACTTTTTCAATCACTTTTTGAGCTTGATAACT
+ATTTTTCATAGCACGTCTCCAATTACAAACCGGACATAATTTTGATTTACAAAACCATGTCTTATGTAACTTCAAATA
+GCCTTCATCAGTTGGCTTAAATTCTAAAATATTACCACATTGTTTTACATTAAAAGCCTTTTTGATTTTTAAAATTTC
+TAGTATATCTGCATAGCTTACATTATCTATTTTCTTTTCTCTCCATGGGCGTTGTTTCCCACTTTTCGTCATATCTTT
+TAACGTTTTATTATCTTGATTTTCGGTTATACTTCTAGTAGTATTATATTGCATATAAAAAGACCCCCAGTATTATTT
+AAGATTCGACACCTTAATAATATAACTGGGGTTTTTTATTGTCAAATTTTCCTTTCACGCACAAAAACACGTTTAAAC
+ACTGTAATATCAACAGTTACAGCTATATATATAAAATCGAGTTATTTCTATATAGTATCAAGACAAGAAGAAACTCGT
+TCACACTCGTTTCAAAAAACAACCTATTCCTTCTTCTTTTTATGACCCTCTAAACCTAAATAAATTAATGTGAAAACC
+AATGAATAAATAAAACTTTCTAAAAAGTCAAAAGGATTATCAAATAAAATCGAATTAACAAAATTAAAAATTAAAAAT
+ACAGATAATAAAATAATCAAAAAGTAAAAAAACTTATTCATATTAAACTCCTTTGTTTTTATATGTTAATATTATATT
+GAATTCATTTAAATAACAAAACAAGGGGGCATTTACAATGAATGCAATTCAAAACAGTATATCACTAAGAAAGATTTT
+AGTAGTATCTTTAAGTATTTTAACCATACTTTCAATGGTCTTGGATTTTAATTTCAAAGAAGCTCAAGCCCAAAACAA
+AAATAACATTGCAGATAAAAACGTTGAAACTTTAAACGAAAAAGAAATTGAAAAAGAACTAAAATACATATATGGCAA
+AATTATTATTTTAGATAAAGACGGAACAGCTAAAGATGTTAATCTAGAAAATGCCAAATCTCGATATGGATATGTTCC
+TGAAGGATTCCAAAAACTAAAAAACGACATAGAGAATAAAAAGAAAACTAGTTCAATATCACCTAGAGCAGTTGGTGG
+GAACTACAAAAATAGCGGTGACTGTTTCTATTCTGAAGTTTTAAACTCATATGGAGAACTTTTAACTGGAAACATAAT
+CACAGCAGTTTTTGAAGATGTTAAAGCCAAAAACTTAAAGGGCGTAGCAAAAAAATTAGCTAAAATTGGGATAAAAGG
+AAACCTAGCTGGAATCGCAGCTACTATGGTTTCGAAGGATGTACAATGTAATCTTAAATACGGGTTACTTTAGATACT
+ATTTATTCCAATTGCTTTATTGACGTTGAGCCTCGGAACCCTTAACAATCCCAAAACTTGTCGAATGGTCGGCTTAAT
+AGCTCACGCTATGCCGACATTCGTCTGCAAGTTTAGTTAAGGGTTCTTCTCAACATCAATAAATTTTCTCGGCATAAA
+TGCGTCGTCTATTTTTTATTATCTTCATGATAATCATATTTTTCTTCCATCTCGTCAAAAGCATCATCTTTATAGAAA
+AACAAAAAGTAAGCAACAACACCAATAGGAATAAAAAAACAGTGTGAAAACAAGAAGAAACTCGTTTCAAAATCCCCT
+CAAATATTCTAATTATTCTTTTTGAAATTCATAACCTTAACAACCAAATAAATAGCATTTATTCCCATCAAAATAACA
+TACGGAATTAATATATATAAATTTTCCAAATGAGATATAAAAATTAATCCAAGTAAAAAGAAAACATTTAAAATAGTT
+GCTATAACGTAACCTTCATCTAACACTGTGTTTTTATTCAAAATAAACACTCCTTTTTTAAAAAACTTTATCACAAGA
+CTTACTCAAATTATAAATACCTTTATTTTGAGTTTTAAGGGGGTATTTTAAAGGTTTAGGGGGTATCATATAGGTTTT
+TAACTTAAAAATATATACAAGCTCTTAA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 5 ,
+                    data
+                      gene {
+                        locus-tag "SAP046B_00001" } ,
+                    location
+                      int {
+                        from 439 ,
+                        to 1434 ,
+                        strand minus ,
+                        id
+                          local
+                            str "SAP046B" } } ,
+                  {
+                    id
+                      local
+                        id 6 ,
+                    data
+                      gene {
+                        locus-tag "SAP046B_00002" } ,
+                    location
+                      int {
+                        from 1638 ,
+                        to 1811 ,
+                        strand minus ,
+                        id
+                          local
+                            str "SAP046B" } } ,
+                  {
+                    id
+                      local
+                        id 7 ,
+                    data
+                      gene {
+                        locus-tag "SAP046B_00003" } ,
+                    location
+                      int {
+                        from 1886 ,
+                        to 2467 ,
+                        strand plus ,
+                        id
+                          local
+                            str "SAP046B" } } ,
+                  {
+                    id
+                      local
+                        id 8 ,
+                    data
+                      gene {
+                        locus-tag "SAP046B_00004" } ,
+                    location
+                      int {
+                        from 2793 ,
+                        to 3014 ,
+                        strand minus ,
+                        id
+                          local
+                            str "SAP046B" } } } } } } ,
+        seq {
+          id {
+            local
+              str "SAP046B_1" } ,
+          descr {
+            title "Replication protein [Staphylococcus aureus]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 331 ,
+            seq-data
+              ncbieaa "MQYNTTRSITENQDNKTLKDMTKSGKQRPWREKKIDNVSYADILEILKIKKAFNV
+KQCGNILEFKPTDEGYLKLHKTWFCKSKLCPVCNWRRAMKNSYQAQKVIEKVIKEKPKARWLFLTLSTKNAIDGDTLE
+QSLKHLTKAFDRLSRYKKVKQNLVGFMRSTEVTVNKNDGSYNQHMHVLLCVENAYFRKKENYITQEEWVNLWQRALQV
+DYRPVANVKAIKPNRKGDKDIESAIKETSKYSVKSSDFLTDDDEKNQEIVSDLEKGLYRKRMLSYGGLLKQKHKILNL
+DDVEDGNLINASDEDKTTDEEEKAHSITAIWNFEKQNYYLRH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 9 ,
+                    data
+                      prot {
+                        name {
+                          "Replication protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 330 ,
+                        id
+                          local
+                            str "SAP046B_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "SAP046B_2" } ,
+          descr {
+            title "hypothetical protein SAP046B_00002 [Staphylococcus aureus]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 57 ,
+            seq-data
+              ncbieaa "MNKFFYFLIILLSVFLIFNFVNSILFDNPFDFLESFIYSLVFTLIYLGLEGHKKK
+KE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 56 ,
+                        id
+                          local
+                            str "SAP046B_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "SAP046B_3" } ,
+          descr {
+            title "hypothetical protein SAP046B_00003 [Staphylococcus aureus]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 193 ,
+            seq-data
+              ncbieaa "MNAIQNSISLRKILVVSLSILTILSMVLDFNFKEAQAQNKNNIADKNVETLNEKE
+IEKELKYIYGKIIILDKDGTAKDVNLENAKSRYGYVPEGFQKLKNDIENKKKTSSISPRAVGGNYKNSGDCFYSEVLN
+SYGELLTGNIITAVFEDVKAKNLKGVAKKLAKIGIKGNLAGIAATMVSKDVQCNLKYGLL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 192 ,
+                        id
+                          local
+                            str "SAP046B_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "SAP046B_4" } ,
+          descr {
+            title "hypothetical protein SAP046B_00004 [Staphylococcus aureus]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 73 ,
+            seq-data
+              ncbieaa "MIKFFKKGVFILNKNTVLDEGYVIATILNVFFLLGLIFISHLENLYILIPYVILM
+GINAIYLVVKVMNFKKNN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 72 ,
+                        id
+                          local
+                            str "SAP046B_4" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "SAP046B_1" ,
+                location
+                  int {
+                    from 439 ,
+                    to 1434 ,
+                    strand minus ,
+                    id
+                      local
+                        str "SAP046B" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "protein motif:Pfam:PF01446.11" } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "SAP046B_2" ,
+                location
+                  int {
+                    from 1638 ,
+                    to 1811 ,
+                    strand minus ,
+                    id
+                      local
+                        str "SAP046B" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "SAP046B_3" ,
+                location
+                  int {
+                    from 1886 ,
+                    to 2467 ,
+                    strand plus ,
+                    id
+                      local
+                        str "SAP046B" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "SAP046B_4" ,
+                location
+                  int {
+                    from 2793 ,
+                    to 3014 ,
+                    strand minus ,
+                    id
+                      local
+                        str "SAP046B" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } } } } } } } }

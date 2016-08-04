@@ -1,0 +1,109 @@
+[11:58:01] Command: --outdir /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/ --force --prefix PlasmidB --locustag PlasmidB --genus Staphylococcus --species aureus --plasmid USA300B --kingdom Bacteria --cpus 6 /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB.fasta
+[11:58:01] Looking for 'aragorn' - found /home/sb2145/.linuxbrew/bin/aragorn
+[11:58:01] Determined aragorn version is 1.2
+[11:58:01] Looking for 'barrnap' - found /home/sb2145/.linuxbrew/bin/barrnap
+[11:58:01] Determined barrnap version is 0.7
+[11:58:01] Looking for 'blastp' - found /home/sb2145/.linuxbrew/bin/blastp
+[11:58:01] Determined blastp version is 2.4
+[11:58:01] Looking for 'cmpress' - found /home/sb2145/.linuxbrew/bin/cmpress
+[11:58:01] Determined cmpress version is 1.1
+[11:58:01] Looking for 'cmscan' - found /home/sb2145/.linuxbrew/bin/cmscan
+[11:58:01] Determined cmscan version is 1.1
+[11:58:01] Looking for 'egrep' - found /bin/egrep
+[11:58:01] Looking for 'find' - found /usr/bin/find
+[11:58:01] Looking for 'grep' - found /bin/grep
+[11:58:01] Looking for 'hmmpress' - found /home/sb2145/.linuxbrew/bin/hmmpress
+[11:58:01] Determined hmmpress version is 3.1
+[11:58:01] Looking for 'hmmscan' - found /home/sb2145/.linuxbrew/bin/hmmscan
+[11:58:01] Determined hmmscan version is 3.1
+[11:58:01] Looking for 'less' - found /usr/bin/less
+[11:58:01] Looking for 'makeblastdb' - found /home/sb2145/.linuxbrew/bin/makeblastdb
+[11:58:01] Determined makeblastdb version is 2.4
+[11:58:01] Looking for 'minced' - found /home/sb2145/.linuxbrew/bin/minced
+[11:58:01] Determined minced version is 2.0
+[11:58:01] Looking for 'parallel' - found /home/sb2145/.linuxbrew/bin/parallel
+[11:58:01] Determined parallel version is 20160722
+[11:58:01] Looking for 'prodigal' - found /home/sb2145/.linuxbrew/bin/prodigal
+[11:58:02] Determined prodigal version is 2.6
+[11:58:02] Looking for 'prokka-genbank_to_fasta_db' - found /home/sb2145/.linuxbrew/bin/prokka-genbank_to_fasta_db
+[11:58:02] Looking for 'sed' - found /bin/sed
+[11:58:02] Looking for 'signalp' - found /usr/bin/signalp
+[11:58:02] Determined signalp version is 4.1
+[11:58:02] Looking for 'tbl2asn' - found /home/sb2145/.linuxbrew/bin/tbl2asn
+[11:58:02] Determined tbl2asn version is 24.9
+[11:58:02] Using genetic code table 11.
+[11:58:02] Loading and checking input file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB.fasta
+[11:58:02] Wrote 1 contigs
+[11:58:02] Predicting tRNAs and tmRNAs
+[11:58:02] Running: aragorn -gc11  -w \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/PlasmidB\.fna
+[11:58:02] Found 0 tRNAs
+[11:58:02] Predicting Ribosomal RNAs
+[11:58:02] Running Barrnap with 6 threads
+[11:58:02] Found 0 rRNAs
+[11:58:02] Skipping ncRNA search, enable with --rfam if desired.
+[11:58:02] Total of 0 tRNA + rRNA features
+[11:58:02] Searching for CRISPR repeats
+[11:58:02] Found 0 CRISPRs
+[11:58:02] Predicting coding sequences
+[11:58:02] Contigs total 3125 bp, so using meta mode
+[11:58:02] Running: prodigal -i \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/PlasmidB\.fna -c -m -g 11 -p meta -f sco -q
+[11:58:02] Found 4 CDS
+[11:58:02] Connecting features back to sequences
+[11:58:02] Option --gram not specified, will NOT check for signal peptides.
+[11:58:02] Not using genus-specific database. Try --usegenus to enable it.
+[11:58:02] Annotating CDS, please be patient.
+[11:58:02] Will use 6 CPUs for similarity searching.
+[11:58:02] There are still 4 unannotated CDS left (started with 4)
+[11:58:02] Will use blast to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/kingdom/Bacteria/sprot with 6 CPUs
+[11:58:02] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/sprot\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe blastp -query - -db /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/sprot\.blast 2> /dev/null
+[11:58:03] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//sprot.faa
+[11:58:03] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//sprot.blast
+[11:58:03] There are still 4 unannotated CDS left (started with 4)
+[11:58:03] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/CLUSTERS.hmm with 6 CPUs
+[11:58:03] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/CLUSTERS\.hmm\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/CLUSTERS.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/CLUSTERS\.hmm\.hmmer3 2> /dev/null
+[11:58:04] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//CLUSTERS.hmm.faa
+[11:58:04] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//CLUSTERS.hmm.hmmer3
+[11:58:04] There are still 4 unannotated CDS left (started with 4)
+[11:58:04] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/HAMAP.hmm with 6 CPUs
+[11:58:04] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/HAMAP.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[11:58:04] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//HAMAP.hmm.faa
+[11:58:04] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//HAMAP.hmm.hmmer3
+[11:58:04] There are still 4 unannotated CDS left (started with 4)
+[11:58:04] Will use hmmer3 to search against /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/Pfam.hmm with 6 CPUs
+[11:58:04] Running: cat \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/Pfam\.hmm\.faa | parallel --gnu --plain -j 6 --block 55 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/sb2145/.linuxbrew/Cellar/prokka/1.11_1/bin/../db/hmm/Pfam.hmm /dev/stdin > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/Pfam\.hmm\.hmmer3 2> /dev/null
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//Pfam.hmm.faa
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//Pfam.hmm.hmmer3
+[11:58:06] Labelling remaining 3 proteins as 'hypothetical protein'
+[11:58:06] Found 0 unique /gene codes.
+[11:58:06] Fixed 0 colliding /gene names.
+[11:58:06] Adding /locus_tag identifiers
+[11:58:06] Assigned 4 locus_tags to CDS and RNA features.
+[11:58:06] Writing outputs to /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//
+[11:58:06] Generating annotation statistics file
+[11:58:06] Generating Genbank and Sequin files
+[11:58:06] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/PlasmidB\.err -i \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/PlasmidB\.fsa 2> /dev/null
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//errorsummary.val
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//PlasmidB.dr
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//PlasmidB.fixedproducts
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//PlasmidB.ecn
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//PlasmidB.val
+[11:58:06] Repairing broken .GBK output that tbl2asn produces...
+[11:58:06] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/PlasmidB\.gbf > \/mnt\/data\/bioinformatics\/Projects\/MINion\/Aureus_2998\-174\/PaperDrafts\/GigascienceSubmission\/Github\/MHO_analysis\/\/Annotation\/PlasmidB\/\/PlasmidB\.gbk
+[11:58:06] Deleting unwanted file: /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB//PlasmidB.gbf
+[11:58:06] Output files:
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.ffn
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.txt
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.gff
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.tbl
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.gbk
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.sqn
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.log
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.err
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.faa
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.fsa
+[11:58:06] /mnt/data/bioinformatics/Projects/MINion/Aureus_2998-174/PaperDrafts/GigascienceSubmission/Github/MHO_analysis//Annotation/PlasmidB/PlasmidB.fna
+[11:58:06] Walltime used: 0.08 minutes
+[11:58:06] If you use this result please cite the Prokka paper:
+[11:58:06] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[11:58:06] Type 'prokka --citation' for more details.
+[11:58:06] Share and enjoy!

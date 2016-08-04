@@ -1,0 +1,30 @@
+>Feature SAP046B
+1435	440	CDS
+			Parent	SAP046B_00001_gene
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:Pfam:PF01446.11
+			locus_tag	SAP046B_00001
+			product	Replication protein
+1435	440	gene
+			locus_tag	SAP046B_00001
+1812	1639	CDS
+			Parent	SAP046B_00002_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046B_00002
+			product	hypothetical protein
+1812	1639	gene
+			locus_tag	SAP046B_00002
+1887	2468	CDS
+			Parent	SAP046B_00003_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046B_00003
+			product	hypothetical protein
+1887	2468	gene
+			locus_tag	SAP046B_00003
+3015	2794	CDS
+			Parent	SAP046B_00004_gene
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SAP046B_00004
+			product	hypothetical protein
+3015	2794	gene
+			locus_tag	SAP046B_00004
