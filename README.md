@@ -449,7 +449,7 @@ progressiveMauve --output=$DIR/Alignments/PlasmidAVsSAP046A $DIR/Annotation/Plas
 progressiveMauve --output=$DIR/Alignments/PlasmidBVsSAP046B  $DIR/Annotation/PlasmidB.fasta $DIR/References/SAP046B.fasta
 
 # Plot Figure
-Rscript $DIR/Scripts/PlotAlignment.R $DIR/Alignments/ChromosomeVsUSA300.backbone $DIR/Annotation/Chromosome/Chromosome.gbk $DIR/Annotation/USA300_FPR3757/USA300_FPR3757.gbk $DIR/Scripts/Figure_Annotation.tab $DIR/Mapping/ChromosomeVsIllumina.coverage $DIR/Mapping/ChromosomeVsNanopore.coverage $DIR/Alignments/PlasmidAVsSAP046A.backbone $DIR/Annotation/PlasmidA/PlasmidA.gbk $DIR/Annotation/SAP046A/SAP046A.gbk $DIR/Mapping/PlasmidAVsIllumina.coverage $DIR/Mapping/PlasmidAVsNanopore.coverage $DIR/Alignments/PlasmidBVsUSA300.backbone $DIR/Annotation/PlasmidB/PlasmidB.gbk $DIR/Annotation/SAP046B/SAP046B.gbk $DIR/Mapping/PlasmidBVsIllumina.coverage $DIR/Mapping/PlasmidBVsNanopore.coverage $DIR/Figures/Figure2.pdf 
+Rscript $DIR/Scripts/PlotAlignment.R $DIR/Alignments/ChromosomeVsUSA300.backbone $DIR/Annotation/Chromosome/Chromosome.gbk $DIR/Annotation/USA300_FPR3757/USA300_FPR3757.gbk $DIR/Scripts/Figure_Annotation.tab $DIR/Mapping/ChromosomeVsIllumina.coverage $DIR/Mapping/ChromosomeVsNanopore.coverage $DIR/Alignments/PlasmidAVsSAP046A.backbone $DIR/Annotation/PlasmidA/PlasmidA.gbk $DIR/Annotation/SAP046A/SAP046A.gbk $DIR/Mapping/PlasmidAVsIllumina.coverage $DIR/Mapping/PlasmidAVsNanopore.coverage $DIR/Alignments/PlasmidBVsSAP046B.backbone $DIR/Annotation/PlasmidB/PlasmidB.gbk $DIR/Annotation/SAP046B/SAP046B.gbk $DIR/Mapping/PlasmidBVsIllumina.coverage $DIR/Mapping/PlasmidBVsNanopore.coverage $DIR/Figures/Figure2.pdf 
 
 ```
 
