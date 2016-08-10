@@ -119,7 +119,6 @@ perl $DIR/Scripts/FilterBarcodes.pl $DIR/Reads/minION/Raw/reads_fail_raw.fasta $
 
 Check the summary file:
 
-```
 Barcode	Match	Conflicted
 No Match	9501	0
 NB1	GGTGCTGAAGAAAGTTGTCGGTGTCTTTGTGTTAACCTTT	14	5
@@ -134,7 +133,6 @@ NB6	GGTGCTGTTCTCGCAAAGGCAGAAAGTAGTCTTAACCTTT	1008	11
 NB7	GGTGCTGGTGTTACCGTGGGAATGAATCCTTTTAACCTTT	2999	20
 NB8	GGTGCTGTTCAGGGAACAAACCAAGTTACGTTTAACCTTT	631	10
 NB9	GGTGCTGAACTAGGCACAGCGAGTCTTGGTTTTAACCTTT	766	5
-```
 
 We will perform some analysis of these reads later on (the proportion of demultiplexed reads that are S. aureus). 
 
