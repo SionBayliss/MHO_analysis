@@ -5,10 +5,13 @@
 #### Analysis 
 * Samtools (>=1.18)
 * Trimmomatic 
-* SPAdes
+* SPAdes v3.6.1
 * BWA (0.7.5a-r405)
 * BioPerl
-* Mauve
+* MAUVE
+* BLASR
+* prokka
+* tablet/artemis
 
 #### Plot Creation
 * R
@@ -16,12 +19,8 @@
 * cowplot
 * genoPlotR
 
-#### Optional 
-* prokka
-* tablet/artemis
-
 # Workflow
- For publication - TBA
+For publication - TBA
   
 ### Set working directory (change as appropriate) 
 ```
