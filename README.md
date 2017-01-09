@@ -3,16 +3,16 @@
 ### Data Availability
 The dataset supporting the conclusions of this article is available in the European Nucleotide Archive repository under project number PRJEB14152. Further supporting data is also available from the GigaScience GigaDB repository:
 
-   Bayliss SC, Hunt VL, Yokoyama M, Thorpe HA, Feil EJ.  Supporting data for "The use of Oxford Nanopore native barcoding for complete genome assembly". GigaScience Database. 2016. http://dx.doi.org/10.5524/100269.
+Bayliss SC, Hunt VL, Yokoyama M, Thorpe HA, Feil EJ. Supporting data for "The use of Oxford Nanopore native barcoding for complete genome assembly". GigaScience Database. 2016. http://dx.doi.org/10.5524/100269.
 
 
 ### Availability and requirements
- *Project name: MHO_001 hybrid read assembly and analysis
- *Project home page: https://github.com/SionBayliss/MHO_analysis
- *Operating systems: Unix
- *Programming language: R, perl
- *Other requirements: Dependencies include Samtools (>=1.18), Trimmomatic, SPAdes v3.6.1, BWA (0.7.5a-r405), BioPerl, MAUVE, BLASR, prokka, Tablet/Artemis, (R Libraries: ggplot2, cowplot, genoPlotR)
- *License: GNU GPL v3
+*Project name: MHO_001 hybrid read assembly and analysis
+*Project home page: https://github.com/SionBayliss/MHO_analysis
+*Operating systems: Unix
+*Programming language: R, perl
+*Other requirements: Dependencies include Samtools (>=1.18), Trimmomatic, SPAdes v3.6.1, BWA (0.7.5a-r405), BioPerl, MAUVE, BLASR, prokka, Tablet/Artemis, (R Libraries: ggplot2, cowplot, genoPlotR)
+*License: GNU GPL v3
 
 # Workflow
 For publication - Gigascience
