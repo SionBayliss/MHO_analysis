@@ -1,26 +1,22 @@
 # MHO 001 MinION Analysis 
 
-### Dependencies
+### Data Availability
+The dataset supporting the conclusions of this article is available in the European Nucleotide Archive repository under project number PRJEB14152. Further supporting data is also available from the GigaScience GigaDB repository:
 
-#### Analysis 
-* Samtools (>=1.18)
-* Trimmomatic 
-* SPAdes v3.6.1
-* BWA (0.7.5a-r405)
-* BioPerl
-* MAUVE
-* BLASR
-* prokka
-* tablet/artemis
+```
+Bayliss SC, Hunt VL, Yokoyama M, Thorpe HA, Feil EJ.  Supporting data for "The use of Oxford Nanopore native barcoding for complete genome assembly". GigaScience Database. 2016. http://dx.doi.org/10.5524/100269.
+```
 
-#### Plot Creation
-* R
-* ggplot
-* cowplot
-* genoPlotR
+### Availability and requirements
+Project name: MHO_001 hybrid read assembly and analysis
+Project home page: https://github.com/SionBayliss/MHO_analysis
+Operating systems: Unix
+Programming language: R, perl
+Other requirements: Dependencies include Samtools (>=1.18), Trimmomatic, SPAdes v3.6.1, BWA (0.7.5a-r405), BioPerl, MAUVE, BLASR, prokka, Tablet/Artemis, (R Libraries: ggplot2, cowplot, genoPlotR)
+License: GNU GPL v3
 
 # Workflow
-For publication - TBA
+For publication - Gigascience
   
 ### Set working directory (change as appropriate) 
 ```
@@ -80,7 +76,7 @@ Assess quality using fastqc
 fastqc -t 2 $DIR/Reads/Illumina/Raw/illumina_1.fastq.gz $DIR/Reads/Illumina/Raw/illumina_2.fastq.gz
 ```
 #### Note : Convert pass and fail reads to fasta format.
-The following analysis assumes you have downloaded the fasta files from the ENA. The raw native MinIOn data is also available and can be converted to fasta format using PoRe, poRetools or conversion tool of your choice.
+The following analysis assumes you have downloaded the fasta files from the ENA. The raw native MinION data is also available and can be converted to fasta format using PoRe, poRetools or conversion tool of your choice.
 
 ## QC, demultiplex and trim reads
 
@@ -109,7 +105,7 @@ Pass reads have previously been demultiplexed by Metrichore.
 
 Note: Multiple diverse prokaryotic and eukaryotic sample libraries were included in this run. For this analysis we are only interested in the target barcode. To be conservative we remove other barcodes first. 
 
-We will demultiplex the fail reads by finding the closest match to the barcode string (the threshold is less than 14 substitutions, insetions or deletions between the sequence and the barcode). Reads are also trimmed of adapter sequence if possible.
+We will demultiplex the fail reads by finding the closest match to the barcode string (the threshold is less than 14 substitutions, insertions or deletions between the sequence and the barcode). Reads are also trimmed of adapter sequence if possible.
 
 ```
 cd $DIR/Reads/minION/
@@ -183,7 +179,7 @@ Results:
 
 ### Assemble Genome
 
-Assembly was performed using SPAdes v 3.61 in hybrid assembly mode  (i.e. with `-nanopore` option). Later versions of SPAdes produce slightly differnet output that may require modification of downstream scripts. To avoid confusion use v3.6.1.
+Assembly was performed using SPAdes v 3.61 in hybrid assembly mode  (i.e. with `-nanopore` option). Later versions of SPAdes produce slightly different output that may require modification of downstream scripts. To avoid confusion use v3.6.1.
 
 Note: Set the appropriate number of threads for your desktop/cluster using the `-t` option.
 ```
@@ -215,7 +211,7 @@ grep -A 1 '>NODE_2_' < $DIR/Contigs/Raw/all_contigs.fasta > $DIR/Contigs/Raw/Pla
 grep -A 1 '>NODE_3_' < $DIR/Contigs/Raw/all_contigs.fasta > $DIR/Contigs/Raw/PlasmidB.fasta
 ```
 
-BLAST contigs to find nearest reference genomes - Genebank and fasta files stored in References 
+BLAST contigs to find nearest reference genomes - Genbank and fasta files stored in References 
 ```
 ---------------------------------------------------
 USA300_FPR3757 - Chromosome 
@@ -472,7 +468,7 @@ cp $DIR/Annotation/Genome.fasta $DIR/BLASR/Genome.fasta
 
 ```
 
-Compare pass and fail reads seperately to the final MHO_001 assembly. 
+Compare pass and fail reads separately to the final MHO_001 assembly. 
 
 ```
 
@@ -519,8 +515,8 @@ Rscript $DIR/Scripts/BLASR_Analysis.R $DIR/BLASR/filtered.blasr $DIR/BLASR/unbar
 
 The methodology used to produce the SNPs relative to USA300_FPR3757 have been detailed in the main manuscript. 
 
-The pipeline is curently being prepared for publication (watch this space). 
+The pipeline is currently being prepared for publication (watch this space). 
 
-The SNPs produced is available in VCF format as supplementry materials for the paper (Supplementary Table *). 
+The SNPs identified by the pipeline are available in VCF format as a part of the supplementary materials for the paper (Supplementary Table 2) or the GigaScience Repository (See start of README). 
 
-Full workings for the paper are included in the supplementry spreadsheet.
+Full workings for the paper are included in the supplementary spreadsheet.
