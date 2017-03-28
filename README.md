@@ -1,9 +1,14 @@
 # MHO 001 MinION Analysis 
 
+### Paper
+Sion C. Bayliss, Vicky L. Hunt, Maho Yokoyama, Harry A. Thorpe, Edward J. Feil (2017) 
+The use of Oxford Nanopore native barcoding for complete genome assembly.
+Gigascience. 6 (3): 1-6. doi - [https://doi.org/10.1093/gigascience/gix001](https://doi.org/10.1093/gigascience/gix001)
+
 ### Data Availability
 The dataset supporting the conclusions of this article is available in the European Nucleotide Archive repository under project number PRJEB14152. Further supporting data is also available from the GigaScience GigaDB repository:
 
-Bayliss SC, Hunt VL, Yokoyama M, Thorpe HA, Feil EJ. Supporting data for "The use of Oxford Nanopore native barcoding for complete genome assembly". GigaScience Database. 2016. http://dx.doi.org/10.5524/100269.
+Bayliss SC, Hunt VL, Yokoyama M, Thorpe HA, Feil EJ. Supporting data for "The use of Oxford Nanopore native barcoding for complete genome assembly". GigaScience Database. 2016. [http://dx.doi.org/10.5524/100269](http://dx.doi.org/10.5524/100269)
 
 ### Availability and requirements
 * Project name: MHO_001 hybrid read assembly and analysis
@@ -14,7 +19,6 @@ Bayliss SC, Hunt VL, Yokoyama M, Thorpe HA, Feil EJ. Supporting data for "Th
 * License: GNU GPL v3
 
 # Workflow
-For publication - Gigascience
   
 ### Set working directory (change as appropriate) 
 ```
